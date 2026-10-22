@@ -1,0 +1,262 @@
+{
+  "per_section": [
+    {
+      "section": "151669",
+      "cell_type": "oligodendrocyte",
+      "frac_communicating_all": 0.04425020486205954,
+      "frac_communicating_top": 0.02617801047120419,
+      "frac_communicating_uniform": 0.04402458456635557,
+      "frac_communicating_matched": 0.024243114045071703
+    },
+    {
+      "section": "151669",
+      "cell_type": "astrocyte",
+      "frac_communicating_all": 0.045024128198124375,
+      "frac_communicating_top": 0.05759162303664921,
+      "frac_communicating_uniform": 0.04441915168070414,
+      "frac_communicating_matched": 0.04530692768798847
+    },
+    {
+      "section": "151669",
+      "cell_type": "microglia",
+      "frac_communicating_all": 0.019029409086770463,
+      "frac_communicating_top": 0.029592533576143866,
+      "frac_communicating_uniform": 0.018992336292586686,
+      "frac_communicating_matched": 0.02024432809773124
+    },
+    {
+      "section": "151669",
+      "cell_type": "excitatory_neuron",
+      "frac_communicating_all": 0.05299098606937995,
+      "frac_communicating_top": 0.06009560664693831,
+      "frac_communicating_uniform": 0.05332726307003566,
+      "frac_communicating_matched": 0.05275817588587904
+    },
+    {
+      "section": "151670",
+      "cell_type": "oligodendrocyte",
+      "frac_communicating_all": 0.03759291023441967,
+      "frac_communicating_top": 0.021676989042401142,
+      "frac_communicating_uniform": 0.03731141813562013,
+      "frac_communicating_matched": 0.02020009528346832
+    },
+    {
+      "section": "151670",
+      "cell_type": "astrocyte",
+      "frac_communicating_all": 0.04288164665523156,
+      "frac_communicating_top": 0.04621248213434969,
+      "frac_communicating_uniform": 0.0440527235191361,
+      "frac_communicating_matched": 0.040686040971891387
+    },
+    {
+      "section": "151670",
+      "cell_type": "microglia",
+      "frac_communicating_all": 0.016437964551172097,
+      "frac_communicating_top": 0.015959980943306338,
+      "frac_communicating_uniform": 0.016055264411624585,
+      "frac_communicating_matched": 0.014856280768619978
+    },
+    {
+      "section": "151670",
+      "cell_type": "excitatory_neuron",
+      "frac_communicating_all": 0.04740804269106156,
+      "frac_communicating_top": 0.06788947117675083,
+      "frac_communicating_uniform": 0.048253136414165475,
+      "frac_communicating_matched": 0.05064316341114816
+    },
+    {
+      "section": "151671",
+      "cell_type": "oligodendrocyte",
+      "frac_communicating_all": 0.04403892944038929,
+      "frac_communicating_top": 0.03548256285482563,
+      "frac_communicating_uniform": 0.044802649364693165,
+      "frac_communicating_matched": 0.033421194917545284
+    },
+    {
+      "section": "151671",
+      "cell_type": "astrocyte",
+      "frac_communicating_all": 0.04910786699107867,
+      "frac_communicating_top": 0.06427412814274128,
+      "frac_communicating_uniform": 0.04940524466071911,
+      "frac_communicating_matched": 0.049425520410921873
+    },
+    {
+      "section": "151671",
+      "cell_type": "microglia",
+      "frac_communicating_all": 0.021167883211678833,
+      "frac_communicating_top": 0.022506082725060828,
+      "frac_communicating_uniform": 0.02133684779670181,
+      "frac_communicating_matched": 0.021390916463909164
+    },
+    {
+      "section": "151671",
+      "cell_type": "excitatory_neuron",
+      "frac_communicating_all": 0.04724249797242498,
+      "frac_communicating_top": 0.06873479318734793,
+      "frac_communicating_uniform": 0.04704649905379833,
+      "frac_communicating_matched": 0.04706001622060015
+    },
+    {
+      "section": "151672",
+      "cell_type": "oligodendrocyte",
+      "frac_communicating_all": 0.04271481942714819,
+      "frac_communicating_top": 0.03466168534661685,
+      "frac_communicating_uniform": 0.04336515843365159,
+      "frac_communicating_matched": 0.032703749827037505
+    },
+    {
+      "section": "151672",
+      "cell_type": "astrocyte",
+      "frac_communicating_all": 0.04744707347447073,
+      "frac_communicating_top": 0.06288916562889166,
+      "frac_communicating_uniform": 0.04758544347585444,
+      "frac_communicating_matched": 0.04813200498132005
+    },
+    {
+      "section": "151672",
+      "cell_type": "microglia",
+      "frac_communicating_all": 0.02067247820672478,
+      "frac_communicating_top": 0.024076380240763803,
+      "frac_communicating_uniform": 0.020236612702366128,
+      "frac_communicating_matched": 0.020451086204510863
+    },
+    {
+      "section": "151672",
+      "cell_type": "excitatory_neuron",
+      "frac_communicating_all": 0.046782897467828974,
+      "frac_communicating_top": 0.06704026567040265,
+      "frac_communicating_uniform": 0.046983533969835345,
+      "frac_communicating_matched": 0.05074719800747198
+    },
+    {
+      "section": "151674",
+      "cell_type": "oligodendrocyte",
+      "frac_communicating_all": 0.04723659134222706,
+      "frac_communicating_top": 0.029491833030852996,
+      "frac_communicating_uniform": 0.04729280096793709,
+      "frac_communicating_matched": 0.028849062310949785
+    },
+    {
+      "section": "151674",
+      "cell_type": "astrocyte",
+      "frac_communicating_all": 0.05163807968055177,
+      "frac_communicating_top": 0.05898366606170599,
+      "frac_communicating_uniform": 0.051126739261947975,
+      "frac_communicating_matched": 0.046990320629159095
+    },
+    {
+      "section": "151674",
+      "cell_type": "microglia",
+      "frac_communicating_all": 0.032217079589799434,
+      "frac_communicating_top": 0.0367513611615245,
+      "frac_communicating_uniform": 0.03137477313974592,
+      "frac_communicating_matched": 0.03342407743496672
+    },
+    {
+      "section": "151674",
+      "cell_type": "excitatory_neuron",
+      "frac_communicating_all": 0.05063980397495235,
+      "frac_communicating_top": 0.05240471869328494,
+      "frac_communicating_uniform": 0.05062008469449486,
+      "frac_communicating_matched": 0.04924379915305505
+    },
+    {
+      "section": "151675",
+      "cell_type": "oligodendrocyte",
+      "frac_communicating_all": 0.04737379361544172,
+      "frac_communicating_top": 0.03642691415313225,
+      "frac_communicating_uniform": 0.04735498839907193,
+      "frac_communicating_matched": 0.03225831399845321
+    },
+    {
+      "section": "151675",
+      "cell_type": "astrocyte",
+      "frac_communicating_all": 0.0492297698589458,
+      "frac_communicating_top": 0.04176334106728538,
+      "frac_communicating_uniform": 0.04871616395978346,
+      "frac_communicating_matched": 0.04897911832946635
+    },
+    {
+      "section": "151675",
+      "cell_type": "microglia",
+      "frac_communicating_all": 0.023710096510764663,
+      "frac_communicating_top": 0.02459396751740139,
+      "frac_communicating_uniform": 0.024191802010827535,
+      "frac_communicating_matched": 0.024686774941995362
+    },
+    {
+      "section": "151675",
+      "cell_type": "excitatory_neuron",
+      "frac_communicating_all": 0.04964736451373422,
+      "frac_communicating_top": 0.07238979118329467,
+      "frac_communicating_uniform": 0.051129156999226606,
+      "frac_communicating_matched": 0.04955143078112918
+    },
+    {
+      "section": "151676",
+      "cell_type": "oligodendrocyte",
+      "frac_communicating_all": 0.0476878612716763,
+      "frac_communicating_top": 0.033236994219653176,
+      "frac_communicating_uniform": 0.047776172125883115,
+      "frac_communicating_matched": 0.03037893384714194
+    },
+    {
+      "section": "151676",
+      "cell_type": "astrocyte",
+      "frac_communicating_all": 0.05394990366088632,
+      "frac_communicating_top": 0.04407514450867052,
+      "frac_communicating_uniform": 0.05362074502247913,
+      "frac_communicating_matched": 0.05264932562620425
+    },
+    {
+      "section": "151676",
+      "cell_type": "microglia",
+      "frac_communicating_all": 0.02157996146435453,
+      "frac_communicating_top": 0.02119460500963391,
+      "frac_communicating_uniform": 0.020993898522800265,
+      "frac_communicating_matched": 0.02196531791907514
+    },
+    {
+      "section": "151676",
+      "cell_type": "excitatory_neuron",
+      "frac_communicating_all": 0.052842003853564544,
+      "frac_communicating_top": 0.07032755298651253,
+      "frac_communicating_uniform": 0.05266538214515093,
+      "frac_communicating_matched": 0.05037732819524727
+    }
+  ],
+  "summary": {
+    "oligodendrocyte": {
+      "n_sections": 7,
+      "top": 0.03102214130266946,
+      "uniform": 0.044561110284744646,
+      "matched": 0.028864923461381108,
+      "enrichment_vs_uniform": 0.6936261372376815,
+      "enrichment_vs_matched": 1.0742941616084816
+    },
+    "astrocyte": {
+      "n_sections": 7,
+      "top": 0.05368422151147052,
+      "uniform": 0.048418030225803474,
+      "matched": 0.04745275123385021,
+      "enrichment_vs_uniform": 1.1144389310741092,
+      "enrichment_vs_matched": 1.1370069815915393
+    },
+    "microglia": {
+      "n_sections": 7,
+      "top": 0.024953558739119232,
+      "uniform": 0.021883076410950417,
+      "matched": 0.022431254547258354,
+      "enrichment_vs_uniform": 1.1420412628219239,
+      "enrichment_vs_matched": 1.1180229441987517
+    },
+    "excitatory_neuron": {
+      "n_sections": 7,
+      "top": 0.06555459993493311,
+      "uniform": 0.05000357947810103,
+      "matched": 0.05005444452207584,
+      "enrichment_vs_uniform": 1.315456290980082,
+      "enrichment_vs_matched": 1.311767182701983
+    }
+  }
+}

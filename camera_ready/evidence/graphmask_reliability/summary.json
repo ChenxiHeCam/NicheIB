@@ -1,0 +1,18 @@
+{
+  "n_sections": 1,
+  "targets": [
+    "layer_label",
+    "excitatory_neuron",
+    "oligodendrocyte",
+    "astrocyte",
+    "microglia",
+    "layer1_markers",
+    "deep_layer_L5L6"
+  ],
+  "graphmask_real_offdiag_all": 0.05673941880330799,
+  "graphmask_permuted_offdiag_all": 0.10512765424868073,
+  "graphmask_real_offdiag_learnable": -0.04099550307089785,
+  "graphmask_permuted_offdiag_learnable": 0.13294932826144576,
+  "tsb_reference_learnable_real": 0.172,
+  "tsb_reference_learnable_permuted": 0.633
+}

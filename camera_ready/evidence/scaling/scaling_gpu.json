@@ -1,0 +1,88 @@
+{
+  "device": "cuda",
+  "results": [
+    {
+      "mode": "full",
+      "side": 50,
+      "n_nodes": 2500,
+      "n_edges": 14602,
+      "sec_per_epoch": 0.009158688795287162,
+      "peak_mem_mb": 106.14111328125
+    },
+    {
+      "mode": "full",
+      "side": 100,
+      "n_nodes": 10000,
+      "n_edges": 59202,
+      "sec_per_epoch": 0.013738269195891916,
+      "peak_mem_mb": 376.2822265625
+    },
+    {
+      "mode": "full",
+      "side": 200,
+      "n_nodes": 40000,
+      "n_edges": 238402,
+      "sec_per_epoch": 0.03129310390213504,
+      "peak_mem_mb": 1458.443359375
+    },
+    {
+      "mode": "full",
+      "side": 400,
+      "n_nodes": 160000,
+      "n_edges": 956802,
+      "sec_per_epoch": 0.11763753549894318,
+      "peak_mem_mb": 5805.43408203125
+    },
+    {
+      "mode": "full",
+      "side": 700,
+      "n_nodes": 490000,
+      "n_edges": 2934402,
+      "sec_per_epoch": 0.35593356320168823,
+      "peak_mem_mb": 17743.18505859375
+    },
+    {
+      "mode": "full",
+      "side": 1000,
+      "error": "CUDA out of memory. Tried to allocate 1.43 GiB. GPU 0 has a total capacity of 23.62 GiB of which 810.62 MiB is free. Including non-PyTorch memory, this process has 22.82 GiB memory in use. Of the allo"
+    },
+    {
+      "mode": "patched",
+      "side": 400,
+      "n_nodes": 160000,
+      "n_edges": 956802,
+      "n_tiles": 49,
+      "tile_nodes": 4000,
+      "sec_per_epoch": 0.45364645530935377,
+      "peak_mem_mb": 194.2216796875
+    },
+    {
+      "mode": "patched",
+      "side": 700,
+      "n_nodes": 490000,
+      "n_edges": 2934402,
+      "n_tiles": 144,
+      "tile_nodes": 4000,
+      "sec_per_epoch": 1.2808282013982535,
+      "peak_mem_mb": 307.68994140625
+    },
+    {
+      "mode": "patched",
+      "side": 1000,
+      "n_nodes": 1000000,
+      "n_edges": 5992002,
+      "n_tiles": 256,
+      "tile_nodes": 4000,
+      "sec_per_epoch": 2.2966209258069283,
+      "peak_mem_mb": 499.4697265625
+    },
+    {
+      "mode": "accuracy",
+      "side": 100,
+      "n_nodes": 10000,
+      "n_tiles": 4,
+      "macro_f1_full": 0.9986719007235374,
+      "macro_f1_patched": 1.0
+    }
+  ]
+}

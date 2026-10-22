@@ -1,0 +1,57 @@
+{
+  "device": "cpu",
+  "results": [
+    {
+      "mode": "full",
+      "side": 50,
+      "n_nodes": 2500,
+      "n_edges": 14602,
+      "sec_per_epoch": 0.07052736659534276,
+      "peak_mem_mb": 970.09765625
+    },
+    {
+      "mode": "full",
+      "side": 100,
+      "n_nodes": 10000,
+      "n_edges": 59202,
+      "sec_per_epoch": 0.2507151689846069,
+      "peak_mem_mb": 1564.546875
+    },
+    {
+      "mode": "full",
+      "side": 200,
+      "n_nodes": 40000,
+      "n_edges": 238402,
+      "sec_per_epoch": 1.0985394493909553,
+      "peak_mem_mb": 2625.6953125
+    },
+    {
+      "mode": "full",
+      "side": 400,
+      "n_nodes": 160000,
+      "n_edges": 956802,
+      "sec_per_epoch": 3.5810379388043656,
+      "peak_mem_mb": 7192.2109375
+    },
+    {
+      "mode": "patched",
+      "side": 400,
+      "n_nodes": 160000,
+      "n_edges": 956802,
+      "n_tiles": 49,
+      "tile_nodes": 4000,
+      "sec_per_epoch": 4.201862042001449,
+      "peak_mem_mb": 7192.2109375
+    },
+    {
+      "mode": "patched",
+      "side": 700,
+      "n_nodes": 490000,
+      "n_edges": 2934402,
+      "n_tiles": 144,
+      "tile_nodes": 4000,
+      "sec_per_epoch": 14.956846718187444,
+      "peak_mem_mb": 7192.2109375
+    }
+  ]
+}

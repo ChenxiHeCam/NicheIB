@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nicheib"
+version = "0.1.0"
+description = "Targeted Spatial Bottleneck for predictive microenvironment discovery"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+    "torch-geometric>=2.4",
+    "scanpy>=1.9",
+    "squidpy>=1.3",
+    "scikit-learn>=1.3",
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "lifelines>=0.27",       # Cox model, KM curves
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "ipython"]
+
+[tool.setuptools.packages.find]
+include = ["nicheib*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]

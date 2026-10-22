@@ -1,0 +1,869 @@
+{
+  "TENX13": {
+    "tumor_epithelial_seed0": {
+      "metric": "r2",
+      "value": 0.8946792942366331,
+      "actual_er": 0.8143631436314364,
+      "achieved_el0": 0.6025509834289551,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed0": {
+      "metric": "r2",
+      "value": 0.6496002613279568,
+      "actual_er": 0.6106302998513856,
+      "achieved_el0": 0.22961491346359253,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed0": {
+      "metric": "r2",
+      "value": 0.8318193015234221,
+      "actual_er": 0.5471632135676195,
+      "achieved_el0": 0.21565604209899902,
+      "budget_mode": "penalty"
+    },
+    "proliferation_seed0": {
+      "metric": "r2",
+      "value": 0.5631832683517651,
+      "actual_er": 0.6640003496809161,
+      "achieved_el0": 0.2345026731491089,
+      "budget_mode": "penalty"
+    },
+    "tumor_epithelial_seed1": {
+      "metric": "r2",
+      "value": 0.9088770825466748,
+      "actual_er": 1.0,
+      "achieved_el0": 0.7682442665100098,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed1": {
+      "metric": "r2",
+      "value": 0.670830922232359,
+      "actual_er": 0.567400996590611,
+      "achieved_el0": 0.2276434302330017,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed1": {
+      "metric": "r2",
+      "value": 0.8114675516922031,
+      "actual_er": 0.4998688696564385,
+      "achieved_el0": 0.21644218266010284,
+      "budget_mode": "penalty"
+    },
+    "proliferation_seed1": {
+      "metric": "r2",
+      "value": 0.5698529824238441,
+      "actual_er": 0.5697176326601976,
+      "achieved_el0": 0.22431254386901855,
+      "budget_mode": "penalty"
+    },
+    "tumor_epithelial_seed2": {
+      "metric": "r2",
+      "value": 0.9110504538524817,
+      "actual_er": 0.7464376256665792,
+      "achieved_el0": 0.5180681347846985,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed2": {
+      "metric": "r2",
+      "value": 0.6515324749540344,
+      "actual_er": 0.47342425037153596,
+      "achieved_el0": 0.21129918098449707,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed2": {
+      "metric": "r2",
+      "value": 0.7141334779736639,
+      "actual_er": 0.499650319083836,
+      "achieved_el0": 0.2101893424987793,
+      "budget_mode": "penalty"
+    },
+    "proliferation_seed2": {
+      "metric": "r2",
+      "value": 0.5985299301189073,
+      "actual_er": 0.6099309380190576,
+      "achieved_el0": 0.22417637705802917,
+      "budget_mode": "penalty"
+    },
+    "cross_target_corr": {
+      "target_names": [
+        "immune_infiltrate",
+        "proliferation",
+        "stromal_fibroblast",
+        "tumor_epithelial"
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.07542501196311922,
+          0.23309224822412347,
+          -0.27308100050589706
+        ],
+        [
+          0.07542501196311922,
+          1.0,
+          0.1110640406161395,
+          0.16633960239825352
+        ],
+        [
+          0.23309224822412347,
+          0.11106404061613954,
+          1.0,
+          0.10858166743350332
+        ],
+        [
+          -0.27308100050589706,
+          0.1663396023982535,
+          0.10858166743350332,
+          1.0
+        ]
+      ]
+    }
+  },
+  "TENX14": {
+    "tumor_epithelial_seed0": {
+      "metric": "r2",
+      "value": 0.8984239802074563,
+      "actual_er": 1.0,
+      "achieved_el0": 0.9995883703231812,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed0": {
+      "metric": "r2",
+      "value": 0.7816486030757546,
+      "actual_er": 0.5923619759236197,
+      "achieved_el0": 0.22607994079589844,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed0": {
+      "metric": "r2",
+      "value": 0.8127492680504067,
+      "actual_er": 0.5813200498132005,
+      "achieved_el0": 0.2276536226272583,
+      "budget_mode": "penalty"
+    },
+    "proliferation_seed0": {
+      "metric": "r2",
+      "value": 0.5358108999266967,
+      "actual_er": 0.5836446658364467,
+      "achieved_el0": 0.230479896068573,
+      "budget_mode": "penalty"
+    },
+    "tumor_epithelial_seed1": {
+      "metric": "r2",
+      "value": 0.9013774701357204,
+      "actual_er": 1.0,
+      "achieved_el0": 0.6319027543067932,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed1": {
+      "metric": "r2",
+      "value": 0.7976422533277886,
+      "actual_er": 0.5795350767953508,
+      "achieved_el0": 0.22166100144386292,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed1": {
+      "metric": "r2",
+      "value": 0.8464807767783944,
+      "actual_er": 0.5667081776670818,
+      "achieved_el0": 0.2285427451133728,
+      "budget_mode": "penalty"
+    },
+    "proliferation_seed1": {
+      "metric": "r2",
+      "value": 0.5133586701203441,
+      "actual_er": 0.590950601909506,
+      "achieved_el0": 0.22997568547725677,
+      "budget_mode": "penalty"
+    },
+    "tumor_epithelial_seed2": {
+      "metric": "r2",
+      "value": 0.9022262537196831,
+      "actual_er": 1.0,
+      "achieved_el0": 0.8340970873832703,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed2": {
+      "metric": "r2",
+      "value": 0.8013394435296629,
+      "actual_er": 0.6741801577418016,
+      "achieved_el0": 0.23330974578857422,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed2": {
+      "metric": "r2",
+      "value": 0.8369302828134085,
+      "actual_er": 0.40689082606890825,
+      "achieved_el0": 0.2053733915090561,
+      "budget_mode": "penalty"
+    },
+    "proliferation_seed2": {
+      "metric": "r2",
+      "value": 0.5304046331690109,
+      "actual_er": 0.6114570361145704,
+      "achieved_el0": 0.22932720184326172,
+      "budget_mode": "penalty"
+    },
+    "cross_target_corr": {
+      "target_names": [
+        "immune_infiltrate",
+        "proliferation",
+        "stromal_fibroblast",
+        "tumor_epithelial"
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.10536888031117968,
+          0.22534521346078892,
+          NaN
+        ],
+        [
+          0.10536888031117968,
+          1.0,
+          0.1297028107218717,
+          NaN
+        ],
+        [
+          0.22534521346078892,
+          0.1297028107218717,
+          1.0,
+          NaN
+        ],
+        [
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ]
+      ]
+    }
+  },
+  "TENX39": {
+    "tumor_epithelial_seed0": {
+      "metric": "r2",
+      "value": 0.9333158990657977,
+      "actual_er": 0.3506751389992057,
+      "achieved_el0": 0.2105468511581421,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed0": {
+      "metric": "r2",
+      "value": 0.789808130768731,
+      "actual_er": 0.5948504103786073,
+      "achieved_el0": 0.22397840023040771,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed0": {
+      "metric": "r2",
+      "value": 0.7045566021655776,
+      "actual_er": 1.0,
+      "achieved_el0": 0.7150359153747559,
+      "budget_mode": "penalty"
+    },
+    "proliferation_seed0": {
+      "metric": "r2",
+      "value": 0.6971336159308887,
+      "actual_er": 0.5994837172359015,
+      "achieved_el0": 0.2260885089635849,
+      "budget_mode": "penalty"
+    },
+    "tumor_epithelial_seed1": {
+      "metric": "r2",
+      "value": 0.9176882186031396,
+      "actual_er": 0.2686656076250993,
+      "achieved_el0": 0.19163893163204193,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed1": {
+      "metric": "r2",
+      "value": 0.8065721496718625,
+      "actual_er": 0.46756685199894094,
+      "achieved_el0": 0.21640412509441376,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed1": {
+      "metric": "r2",
+      "value": 0.7569028883878577,
+      "actual_er": 1.0,
+      "achieved_el0": 0.6856775879859924,
+      "budget_mode": "penalty"
+    },
+    "proliferation_seed1": {
+      "metric": "r2",
+      "value": 0.754334308563814,
+      "actual_er": 0.5785676462801165,
+      "achieved_el0": 0.23025770485401154,
+      "budget_mode": "penalty"
+    },
+    "tumor_epithelial_seed2": {
+      "metric": "r2",
+      "value": 0.9257036302558785,
+      "actual_er": 0.30480540111199367,
+      "achieved_el0": 0.19218920171260834,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed2": {
+      "metric": "r2",
+      "value": 0.8206371301044264,
+      "actual_er": 0.5307122054540641,
+      "achieved_el0": 0.21812085807323456,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed2": {
+      "metric": "r2",
+      "value": 0.7209482761352374,
+      "actual_er": 1.0,
+      "achieved_el0": 0.9994634985923767,
+      "budget_mode": "penalty"
+    },
+    "proliferation_seed2": {
+      "metric": "r2",
+      "value": 0.6982802966091712,
+      "actual_er": 0.6190097961344982,
+      "achieved_el0": 0.2306155115365982,
+      "budget_mode": "penalty"
+    },
+    "cross_target_corr": {
+      "target_names": [
+        "immune_infiltrate",
+        "proliferation",
+        "stromal_fibroblast",
+        "tumor_epithelial"
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.2989874040523126,
+          NaN,
+          -0.07248342769901665
+        ],
+        [
+          0.29898740405231267,
+          0.9999999999999999,
+          NaN,
+          -0.45326770126505916
+        ],
+        [
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        [
+          -0.07248342769901661,
+          -0.45326770126505916,
+          NaN,
+          1.0
+        ]
+      ]
+    }
+  },
+  "TENX53": {
+    "tumor_epithelial_seed0": {
+      "metric": "r2",
+      "value": 0.8913504699405489,
+      "actual_er": 1.0,
+      "achieved_el0": 0.9996179342269897,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed0": {
+      "metric": "r2",
+      "value": 0.814091924222206,
+      "actual_er": 0.546243364638628,
+      "achieved_el0": 0.2187463492155075,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed0": {
+      "metric": "r2",
+      "value": 0.8153453353817012,
+      "actual_er": 0.5809854362324759,
+      "achieved_el0": 0.22587819397449493,
+      "budget_mode": "penalty"
+    },
+    "proliferation_seed0": {
+      "metric": "r2",
+      "value": 0.4599946080361551,
+      "actual_er": 0.6363821968150265,
+      "achieved_el0": 0.23505444824695587,
+      "budget_mode": "penalty"
+    },
+    "tumor_epithelial_seed1": {
+      "metric": "r2",
+      "value": 0.9075643443418767,
+      "actual_er": 1.0,
+      "achieved_el0": 0.6938257217407227,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed1": {
+      "metric": "r2",
+      "value": 0.8177250743048183,
+      "actual_er": 0.608241459098952,
+      "achieved_el0": 0.22929951548576355,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed1": {
+      "metric": "r2",
+      "value": 0.8179870559379148,
+      "actual_er": 0.38121001769429697,
+      "achieved_el0": 0.20353329181671143,
+      "budget_mode": "penalty"
+    },
+    "proliferation_seed1": {
+      "metric": "r2",
+      "value": 0.39001928497616556,
+      "actual_er": 0.5969443310194638,
+      "achieved_el0": 0.22825026512145996,
+      "budget_mode": "penalty"
+    },
+    "tumor_epithelial_seed2": {
+      "metric": "r2",
+      "value": 0.9022652769417658,
+      "actual_er": 1.0,
+      "achieved_el0": 0.9999141097068787,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed2": {
+      "metric": "r2",
+      "value": 0.8301749466525448,
+      "actual_er": 0.5208928814482101,
+      "achieved_el0": 0.2182837575674057,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed2": {
+      "metric": "r2",
+      "value": 0.8245186475656865,
+      "actual_er": 0.49550837076357696,
+      "achieved_el0": 0.20404377579689026,
+      "budget_mode": "penalty"
+    },
+    "proliferation_seed2": {
+      "metric": "r2",
+      "value": 0.42856238104916067,
+      "actual_er": 0.5716959303116919,
+      "achieved_el0": 0.22725102305412292,
+      "budget_mode": "penalty"
+    },
+    "cross_target_corr": {
+      "target_names": [
+        "immune_infiltrate",
+        "proliferation",
+        "stromal_fibroblast",
+        "tumor_epithelial"
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.4044554709310073,
+          0.010225486922186333,
+          NaN
+        ],
+        [
+          0.40445547093100725,
+          1.0,
+          0.1968803660284011,
+          NaN
+        ],
+        [
+          0.010225486922186333,
+          0.1968803660284011,
+          1.0,
+          NaN
+        ],
+        [
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ]
+      ]
+    }
+  },
+  "TENX68": {
+    "tumor_epithelial_seed0": {
+      "metric": "r2",
+      "value": 0.9052916416115495,
+      "actual_er": 0.6853751760209214,
+      "achieved_el0": 0.4568524658679962,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed0": {
+      "metric": "r2",
+      "value": 0.8563579043574076,
+      "actual_er": 0.47183665258499297,
+      "achieved_el0": 0.20563095808029175,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed0": {
+      "metric": "r2",
+      "value": 0.7290724862475605,
+      "actual_er": 1.0,
+      "achieved_el0": 0.8190844058990479,
+      "budget_mode": "penalty"
+    },
+    "proliferation_seed0": {
+      "metric": "r2",
+      "value": 0.7106605636313768,
+      "actual_er": 0.48622007644337156,
+      "achieved_el0": 0.20893359184265137,
+      "budget_mode": "penalty"
+    },
+    "tumor_epithelial_seed1": {
+      "metric": "r2",
+      "value": 0.9113127722151634,
+      "actual_er": 1.0,
+      "achieved_el0": 0.7411444187164307,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed1": {
+      "metric": "r2",
+      "value": 0.8712250434022887,
+      "actual_er": 0.38211627439147056,
+      "achieved_el0": 0.22066599130630493,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed1": {
+      "metric": "r2",
+      "value": 0.7895276121227286,
+      "actual_er": 1.0,
+      "achieved_el0": 0.8189055323600769,
+      "budget_mode": "penalty"
+    },
+    "proliferation_seed1": {
+      "metric": "r2",
+      "value": 0.60664172230747,
+      "actual_er": 0.4606718970026152,
+      "achieved_el0": 0.2083292305469513,
+      "budget_mode": "penalty"
+    },
+    "tumor_epithelial_seed2": {
+      "metric": "r2",
+      "value": 0.9138819033935637,
+      "actual_er": 1.0,
+      "achieved_el0": 0.7383729219436646,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed2": {
+      "metric": "r2",
+      "value": 0.8151170364278981,
+      "actual_er": 0.5663850331925167,
+      "achieved_el0": 0.217864990234375,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed2": {
+      "metric": "r2",
+      "value": 0.7627404095385054,
+      "actual_er": 1.0,
+      "achieved_el0": 0.7700218558311462,
+      "budget_mode": "penalty"
+    },
+    "proliferation_seed2": {
+      "metric": "r2",
+      "value": 0.6368328027912022,
+      "actual_er": 0.5035204184268759,
+      "achieved_el0": 0.2108422964811325,
+      "budget_mode": "penalty"
+    },
+    "cross_target_corr": {
+      "target_names": [
+        "immune_infiltrate",
+        "proliferation",
+        "stromal_fibroblast",
+        "tumor_epithelial"
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.520098897559583,
+          -0.07662188773437346,
+          0.41585085702688374
+        ],
+        [
+          0.5200988975595829,
+          1.0,
+          -0.1357193947258499,
+          0.54255666489912
+        ],
+        [
+          -0.07662188773437346,
+          -0.1357193947258499,
+          1.0,
+          -0.22424330966883632
+        ],
+        [
+          0.4158508570268838,
+          0.54255666489912,
+          -0.22424330966883632,
+          1.0
+        ]
+      ]
+    }
+  },
+  "TENX95": {
+    "tumor_epithelial_seed0": {
+      "metric": "r2",
+      "value": 0.9427895496581603,
+      "actual_er": 0.8849584916279725,
+      "achieved_el0": 0.5146880745887756,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed0": {
+      "metric": "r2",
+      "value": 0.9233944335910824,
+      "actual_er": 0.49200787955536796,
+      "achieved_el0": 0.2500784695148468,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed0": {
+      "metric": "r2",
+      "value": 0.8891176239581139,
+      "actual_er": 0.902588996763754,
+      "achieved_el0": 0.5334184169769287,
+      "budget_mode": "penalty"
+    },
+    "tumor_epithelial_seed1": {
+      "metric": "r2",
+      "value": 0.9431119591802802,
+      "actual_er": 0.7370339102293514,
+      "achieved_el0": 0.5207307934761047,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed1": {
+      "metric": "r2",
+      "value": 0.9329343293137692,
+      "actual_er": 0.4337413817363163,
+      "achieved_el0": 0.23956607282161713,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed1": {
+      "metric": "r2",
+      "value": 0.8958559416675982,
+      "actual_er": 0.9743210918812438,
+      "achieved_el0": 0.8263805508613586,
+      "budget_mode": "penalty"
+    },
+    "tumor_epithelial_seed2": {
+      "metric": "r2",
+      "value": 0.9393732450712606,
+      "actual_er": 0.44761502743773746,
+      "achieved_el0": 0.30592143535614014,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed2": {
+      "metric": "r2",
+      "value": 0.9241483869374052,
+      "actual_er": 0.46252990009849443,
+      "achieved_el0": 0.232051283121109,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed2": {
+      "metric": "r2",
+      "value": 0.8930000543022008,
+      "actual_er": 0.8382017728999578,
+      "achieved_el0": 0.47586414217948914,
+      "budget_mode": "penalty"
+    },
+    "cross_target_corr": {
+      "target_names": [
+        "immune_infiltrate",
+        "stromal_fibroblast",
+        "tumor_epithelial"
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.3178704601706501,
+          0.48994355887571506
+        ],
+        [
+          0.31787046017065007,
+          1.0,
+          0.0483532577608386
+        ],
+        [
+          0.489943558875715,
+          0.04835325776083859,
+          1.0
+        ]
+      ]
+    }
+  },
+  "TENX97": {
+    "tumor_epithelial_seed0": {
+      "metric": "r2",
+      "value": 0.9581008464500592,
+      "actual_er": 0.5081750386942451,
+      "achieved_el0": 0.3273670971393585,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed0": {
+      "metric": "r2",
+      "value": 0.935492789007418,
+      "actual_er": 0.551962853524694,
+      "achieved_el0": 0.2917238175868988,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed0": {
+      "metric": "r2",
+      "value": 0.9305105823816362,
+      "actual_er": 0.7706767975235683,
+      "achieved_el0": 0.41057783365249634,
+      "budget_mode": "penalty"
+    },
+    "tumor_epithelial_seed1": {
+      "metric": "r2",
+      "value": 0.9567324709820246,
+      "actual_er": 0.7554523709019276,
+      "achieved_el0": 0.41426965594291687,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed1": {
+      "metric": "r2",
+      "value": 0.9393133079588031,
+      "actual_er": 0.4647812016321936,
+      "achieved_el0": 0.26819857954978943,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed1": {
+      "metric": "r2",
+      "value": 0.933039879277985,
+      "actual_er": 0.8183621781342338,
+      "achieved_el0": 0.5449772477149963,
+      "budget_mode": "penalty"
+    },
+    "tumor_epithelial_seed2": {
+      "metric": "r2",
+      "value": 0.959593052802098,
+      "actual_er": 0.426424651751794,
+      "achieved_el0": 0.29282137751579285,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed2": {
+      "metric": "r2",
+      "value": 0.9365746131058723,
+      "actual_er": 0.6369776276910089,
+      "achieved_el0": 0.44235894083976746,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed2": {
+      "metric": "r2",
+      "value": 0.9365314323778307,
+      "actual_er": 0.575573378359364,
+      "achieved_el0": 0.46687114238739014,
+      "budget_mode": "penalty"
+    },
+    "cross_target_corr": {
+      "target_names": [
+        "immune_infiltrate",
+        "stromal_fibroblast",
+        "tumor_epithelial"
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.6194175254871704,
+          0.6062679236307978
+        ],
+        [
+          0.6194175254871704,
+          1.0,
+          0.3284430786332938
+        ],
+        [
+          0.6062679236307978,
+          0.32844307863329375,
+          1.0
+        ]
+      ]
+    }
+  },
+  "TENX98": {
+    "tumor_epithelial_seed0": {
+      "metric": "r2",
+      "value": 0.8945977664132178,
+      "actual_er": 0.6333333333333333,
+      "achieved_el0": 0.4173249900341034,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed0": {
+      "metric": "r2",
+      "value": 0.8713144061901578,
+      "actual_er": 0.43706687124408644,
+      "achieved_el0": 0.21653178334236145,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed0": {
+      "metric": "r2",
+      "value": 0.8976298403941629,
+      "actual_er": 0.5088863316711418,
+      "achieved_el0": 0.33165884017944336,
+      "budget_mode": "penalty"
+    },
+    "tumor_epithelial_seed1": {
+      "metric": "r2",
+      "value": 0.888373363653343,
+      "actual_er": 0.5783403656821379,
+      "achieved_el0": 0.3645676076412201,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed1": {
+      "metric": "r2",
+      "value": 0.8631008316383335,
+      "actual_er": 0.3602224779439969,
+      "achieved_el0": 0.21159593760967255,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed1": {
+      "metric": "r2",
+      "value": 0.8907804380833197,
+      "actual_er": 0.7558816008183097,
+      "achieved_el0": 0.5171298384666443,
+      "budget_mode": "penalty"
+    },
+    "tumor_epithelial_seed2": {
+      "metric": "r2",
+      "value": 0.8862721380768949,
+      "actual_er": 1.0,
+      "achieved_el0": 0.566470205783844,
+      "budget_mode": "penalty"
+    },
+    "immune_infiltrate_seed2": {
+      "metric": "r2",
+      "value": 0.8599522840192663,
+      "actual_er": 0.391682649277586,
+      "achieved_el0": 0.19391806423664093,
+      "budget_mode": "penalty"
+    },
+    "stromal_fibroblast_seed2": {
+      "metric": "r2",
+      "value": 0.8877386337917272,
+      "actual_er": 0.5538550057537399,
+      "achieved_el0": 0.4012252688407898,
+      "budget_mode": "penalty"
+    },
+    "cross_target_corr": {
+      "target_names": [
+        "immune_infiltrate",
+        "stromal_fibroblast",
+        "tumor_epithelial"
+      ],
+      "matrix": [
+        [
+          0.9999999999999999,
+          0.2394963465797452,
+          0.36072458791983814
+        ],
+        [
+          0.2394963465797452,
+          1.0,
+          0.34238864428993493
+        ],
+        [
+          0.36072458791983814,
+          0.3423886442899349,
+          0.9999999999999999
+        ]
+      ]
+    }
+  }
+}

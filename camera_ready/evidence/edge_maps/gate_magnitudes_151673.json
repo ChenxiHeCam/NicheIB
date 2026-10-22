@@ -1,0 +1,76 @@
+{
+ "cov": {
+  "layer_label": {
+   "mean_top20": 0.16355393826961517,
+   "frac_zero": 0.33569661995053585,
+   "n_seeds": 10
+  },
+  "excitatory_neuron": {
+   "mean_top20": 0.09977208077907562,
+   "frac_zero": 0.1092470458917285,
+   "n_seeds": 10
+  },
+  "oligodendrocyte": {
+   "mean_top20": 0.09900391846895218,
+   "frac_zero": 0.11248511495832188,
+   "n_seeds": 10
+  },
+  "astrocyte": {
+   "mean_top20": 0.11360251903533936,
+   "frac_zero": 0.1467573509205826,
+   "n_seeds": 10
+  },
+  "microglia": {
+   "mean_top20": 0.10747223347425461,
+   "frac_zero": 0.13462489694971147,
+   "n_seeds": 10
+  },
+  "layer1_markers": {
+   "mean_top20": 0.1033388152718544,
+   "frac_zero": 0.13359439406430337,
+   "n_seeds": 10
+  },
+  "deep_layer_L5L6": {
+   "mean_top20": 0.10745269060134888,
+   "frac_zero": 0.1316982687551525,
+   "n_seeds": 10
+  }
+ },
+ "dual": {
+  "layer_label": {
+   "mean_top20": 0.4999915063381195,
+   "frac_zero": 0.5959741687276724,
+   "n_seeds": 10
+  },
+  "excitatory_neuron": {
+   "mean_top20": 0.2691795229911804,
+   "frac_zero": 0.4115691123935147,
+   "n_seeds": 10
+  },
+  "oligodendrocyte": {
+   "mean_top20": 0.4099133014678955,
+   "frac_zero": 0.4953192268938353,
+   "n_seeds": 10
+  },
+  "astrocyte": {
+   "mean_top20": 0.3168502449989319,
+   "frac_zero": 0.44076669414674363,
+   "n_seeds": 10
+  },
+  "microglia": {
+   "mean_top20": 0.3055139482021332,
+   "frac_zero": 0.4108042502519007,
+   "n_seeds": 10
+  },
+  "layer1_markers": {
+   "mean_top20": 0.26245641708374023,
+   "frac_zero": 0.3956856279197582,
+   "n_seeds": 10
+  },
+  "deep_layer_L5L6": {
+   "mean_top20": 0.362538605928421,
+   "frac_zero": 0.4865576623614546,
+   "n_seeds": 10
+  }
+ }
+}

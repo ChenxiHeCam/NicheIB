@@ -1,0 +1,1226 @@
+{
+  "INT1": {
+    "tumor_ccrcc_seed0": {
+      "metric": "r2",
+      "value": 0.36709258858957794,
+      "actual_er": 0.4517220172201722,
+      "achieved_el0": 0.19695156812667847,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed0": {
+      "metric": "r2",
+      "value": -0.11389851057218947,
+      "actual_er": 0.5731857318573186,
+      "achieved_el0": 0.2219552993774414,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed0": {
+      "metric": "r2",
+      "value": 0.37796507919567957,
+      "actual_er": 0.5132226322263223,
+      "achieved_el0": 0.22298556566238403,
+      "budget_mode": "dual"
+    },
+    "stromal_seed0": {
+      "metric": "r2",
+      "value": 0.5343010007712088,
+      "actual_er": 0.0,
+      "achieved_el0": 0.0003418521664571017,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed0": {
+      "metric": "r2",
+      "value": -0.2360293312096482,
+      "actual_er": 0.5627306273062731,
+      "achieved_el0": 0.22172844409942627,
+      "budget_mode": "dual"
+    },
+    "tumor_ccrcc_seed1": {
+      "metric": "r2",
+      "value": 0.3411682961866739,
+      "actual_er": 0.4640221402214022,
+      "achieved_el0": 0.19258973002433777,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed1": {
+      "metric": "r2",
+      "value": 0.06733870545577447,
+      "actual_er": 0.4567958179581796,
+      "achieved_el0": 0.21425311267375946,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed1": {
+      "metric": "r2",
+      "value": 0.4275392486050775,
+      "actual_er": 0.4215867158671587,
+      "achieved_el0": 0.22046688199043274,
+      "budget_mode": "dual"
+    },
+    "stromal_seed1": {
+      "metric": "r2",
+      "value": 0.5554294484403128,
+      "actual_er": 0.006611316113161131,
+      "achieved_el0": 0.003558151889592409,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed1": {
+      "metric": "r2",
+      "value": -0.1491072712239392,
+      "actual_er": 0.45387453874538747,
+      "achieved_el0": 0.21319884061813354,
+      "budget_mode": "dual"
+    },
+    "tumor_ccrcc_seed2": {
+      "metric": "r2",
+      "value": 0.4310880806730957,
+      "actual_er": 0.5219864698646987,
+      "achieved_el0": 0.20876780152320862,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed2": {
+      "metric": "r2",
+      "value": -0.1547024172354261,
+      "actual_er": 0.583179581795818,
+      "achieved_el0": 0.22504614293575287,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed2": {
+      "metric": "r2",
+      "value": 0.3536206714429866,
+      "actual_er": 0.6027060270602707,
+      "achieved_el0": 0.22755025327205658,
+      "budget_mode": "dual"
+    },
+    "stromal_seed2": {
+      "metric": "r2",
+      "value": 0.5646537633411832,
+      "actual_er": 0.038130381303813035,
+      "achieved_el0": 0.019730838015675545,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed2": {
+      "metric": "r2",
+      "value": -0.11770053318978246,
+      "actual_er": 0.5813345633456335,
+      "achieved_el0": 0.22397249937057495,
+      "budget_mode": "dual"
+    },
+    "cross_target_corr": {
+      "target_names": [
+        "endothelial",
+        "immune_infiltrate",
+        "normal_tubule",
+        "stromal",
+        "tumor_ccrcc"
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.8971195305388663,
+          0.8959270167500547,
+          NaN,
+          0.5842545732835912
+        ],
+        [
+          0.8971195305388663,
+          1.0,
+          0.9473485555219293,
+          NaN,
+          0.5944817430232731
+        ],
+        [
+          0.8959270167500547,
+          0.9473485555219293,
+          1.0,
+          NaN,
+          0.5821577336181605
+        ],
+        [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        [
+          0.5842545732835912,
+          0.5944817430232732,
+          0.5821577336181605,
+          NaN,
+          1.0
+        ]
+      ]
+    }
+  },
+  "INT10": {
+    "tumor_ccrcc_seed0": {
+      "metric": "r2",
+      "value": 0.8273838553301287,
+      "actual_er": 0.3137502101193478,
+      "achieved_el0": 0.1904359608888626,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed0": {
+      "metric": "r2",
+      "value": 0.7461163049155164,
+      "actual_er": 0.5304252815599261,
+      "achieved_el0": 0.21279330551624298,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed0": {
+      "metric": "r2",
+      "value": 0.7529354472262793,
+      "actual_er": 0.35795932089426796,
+      "achieved_el0": 0.2016274631023407,
+      "budget_mode": "dual"
+    },
+    "stromal_seed0": {
+      "metric": "r2",
+      "value": 0.8472113547943789,
+      "actual_er": 0.4186417885358884,
+      "achieved_el0": 0.22840848565101624,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed0": {
+      "metric": "r2",
+      "value": 0.7846824324773333,
+      "actual_er": 0.4306606152294503,
+      "achieved_el0": 0.20192629098892212,
+      "budget_mode": "dual"
+    },
+    "tumor_ccrcc_seed1": {
+      "metric": "r2",
+      "value": 0.8163516260816643,
+      "actual_er": 0.31694402420574885,
+      "achieved_el0": 0.1801280975341797,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed1": {
+      "metric": "r2",
+      "value": 0.7077196999997818,
+      "actual_er": 0.5404269625147083,
+      "achieved_el0": 0.21176163852214813,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed1": {
+      "metric": "r2",
+      "value": 0.6886957905091486,
+      "actual_er": 0.4523449319213313,
+      "achieved_el0": 0.2010578215122223,
+      "budget_mode": "dual"
+    },
+    "stromal_seed1": {
+      "metric": "r2",
+      "value": 0.8947793144060154,
+      "actual_er": 0.4096486804504959,
+      "achieved_el0": 0.22369033098220825,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed1": {
+      "metric": "r2",
+      "value": 0.7889249125886628,
+      "actual_er": 0.4473861153134981,
+      "achieved_el0": 0.2121523767709732,
+      "budget_mode": "dual"
+    },
+    "tumor_ccrcc_seed2": {
+      "metric": "r2",
+      "value": 0.829132395750982,
+      "actual_er": 0.35089931080853926,
+      "achieved_el0": 0.18829265236854553,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed2": {
+      "metric": "r2",
+      "value": 0.7508220857633545,
+      "actual_er": 0.5338712388636746,
+      "achieved_el0": 0.22163569927215576,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed2": {
+      "metric": "r2",
+      "value": 0.6631154244721192,
+      "actual_er": 0.41704488149268787,
+      "achieved_el0": 0.20465758442878723,
+      "budget_mode": "dual"
+    },
+    "stromal_seed2": {
+      "metric": "r2",
+      "value": 0.8558613734122514,
+      "actual_er": 0.25651369978147587,
+      "achieved_el0": 0.15455609560012817,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed2": {
+      "metric": "r2",
+      "value": 0.7697952425195186,
+      "actual_er": 0.4436880147924021,
+      "achieved_el0": 0.20978401601314545,
+      "budget_mode": "dual"
+    },
+    "cross_target_corr": {
+      "target_names": [
+        "endothelial",
+        "immune_infiltrate",
+        "normal_tubule",
+        "stromal",
+        "tumor_ccrcc"
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.12004065365533788,
+          0.5087632295534315,
+          0.45440119471472623,
+          0.5531875250748431
+        ],
+        [
+          0.12004065365533785,
+          1.0,
+          0.23250004551599446,
+          0.14471300006369828,
+          -0.04715332039349835
+        ],
+        [
+          0.5087632295534313,
+          0.23250004551599446,
+          1.0,
+          0.6715814085771982,
+          0.5630748205434761
+        ],
+        [
+          0.45440119471472634,
+          0.14471300006369828,
+          0.6715814085771982,
+          1.0,
+          0.5842719563703278
+        ],
+        [
+          0.5531875250748431,
+          -0.04715332039349835,
+          0.5630748205434761,
+          0.5842719563703278,
+          1.0
+        ]
+      ]
+    }
+  },
+  "INT11": {
+    "tumor_ccrcc_seed0": {
+      "metric": "r2",
+      "value": 0.5792973779540828,
+      "actual_er": 0.46351633078526755,
+      "achieved_el0": 0.19547049701213837,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed0": {
+      "metric": "r2",
+      "value": 0.32752994498943755,
+      "actual_er": 0.6296038915913829,
+      "achieved_el0": 0.2285563200712204,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed0": {
+      "metric": "r2",
+      "value": 0.6231476265618374,
+      "actual_er": 0.6052814454482279,
+      "achieved_el0": 0.2232673317193985,
+      "budget_mode": "dual"
+    },
+    "stromal_seed0": {
+      "metric": "r2",
+      "value": 0.9006879918593003,
+      "actual_er": 0.0557099837850359,
+      "achieved_el0": 0.036746084690093994,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed0": {
+      "metric": "r2",
+      "value": 0.1423686902551614,
+      "actual_er": 0.6155895297660412,
+      "achieved_el0": 0.2267274260520935,
+      "budget_mode": "dual"
+    },
+    "tumor_ccrcc_seed1": {
+      "metric": "r2",
+      "value": 0.6346455435774305,
+      "actual_er": 0.2728746814917767,
+      "achieved_el0": 0.1209268867969513,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed1": {
+      "metric": "r2",
+      "value": 0.21290177597263338,
+      "actual_er": 0.5721565902246931,
+      "achieved_el0": 0.22289925813674927,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed1": {
+      "metric": "r2",
+      "value": 0.6984720338802421,
+      "actual_er": 0.6007644197359278,
+      "achieved_el0": 0.221279576420784,
+      "budget_mode": "dual"
+    },
+    "stromal_seed1": {
+      "metric": "r2",
+      "value": 0.8872504078621198,
+      "actual_er": 0.14454482279360667,
+      "achieved_el0": 0.08040084689855576,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed1": {
+      "metric": "r2",
+      "value": 0.06909181950340315,
+      "actual_er": 0.426106092193653,
+      "achieved_el0": 0.2312324345111847,
+      "budget_mode": "dual"
+    },
+    "tumor_ccrcc_seed2": {
+      "metric": "r2",
+      "value": 0.6098263032577385,
+      "actual_er": 0.5414639796154737,
+      "achieved_el0": 0.19494183361530304,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed2": {
+      "metric": "r2",
+      "value": 0.2723707894877807,
+      "actual_er": 0.5767894371091036,
+      "achieved_el0": 0.2197987139225006,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed2": {
+      "metric": "r2",
+      "value": 0.6883900424482023,
+      "actual_er": 0.5828121380588371,
+      "achieved_el0": 0.222497820854187,
+      "budget_mode": "dual"
+    },
+    "stromal_seed2": {
+      "metric": "r2",
+      "value": 0.8787382317353176,
+      "actual_er": 0.11350474866805652,
+      "achieved_el0": 0.07140384614467621,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed2": {
+      "metric": "r2",
+      "value": 0.027783927222818416,
+      "actual_er": 0.5769052582812138,
+      "achieved_el0": 0.21827085316181183,
+      "budget_mode": "dual"
+    },
+    "cross_target_corr": {
+      "target_names": [
+        "endothelial",
+        "immune_infiltrate",
+        "normal_tubule",
+        "stromal",
+        "tumor_ccrcc"
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.5670430575323319,
+          0.5235440251928357,
+          -0.043461447420698636,
+          0.22669614757438075
+        ],
+        [
+          0.5670430575323319,
+          1.0,
+          0.7682247195067297,
+          -0.3561573276912427,
+          0.14122647602592464
+        ],
+        [
+          0.5235440251928357,
+          0.7682247195067297,
+          1.0,
+          -0.28761611926710823,
+          0.2620975301624023
+        ],
+        [
+          -0.043461447420698636,
+          -0.3561573276912428,
+          -0.28761611926710823,
+          1.0,
+          0.09275564025162097
+        ],
+        [
+          0.22669614757438075,
+          0.14122647602592464,
+          0.2620975301624023,
+          0.09275564025162097,
+          1.0
+        ]
+      ]
+    }
+  },
+  "INT12": {
+    "tumor_ccrcc_seed0": {
+      "metric": "r2",
+      "value": 0.6046894872737334,
+      "actual_er": 0.14863312657937056,
+      "achieved_el0": 0.06722021847963333,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed0": {
+      "metric": "r2",
+      "value": 0.276500986190818,
+      "actual_er": 0.583965081552952,
+      "achieved_el0": 0.22225432097911835,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed0": {
+      "metric": "r2",
+      "value": 0.674355318954365,
+      "actual_er": 0.5147025040202159,
+      "achieved_el0": 0.2021155059337616,
+      "budget_mode": "dual"
+    },
+    "stromal_seed0": {
+      "metric": "r2",
+      "value": 0.780441453283338,
+      "actual_er": 0.05352630369859867,
+      "achieved_el0": 0.03549561649560928,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed0": {
+      "metric": "r2",
+      "value": 0.5318417883175939,
+      "actual_er": 0.556512749827705,
+      "achieved_el0": 0.21515606343746185,
+      "budget_mode": "dual"
+    },
+    "tumor_ccrcc_seed1": {
+      "metric": "r2",
+      "value": 0.5066275632381572,
+      "actual_er": 0.0,
+      "achieved_el0": 4.138456279179081e-05,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed1": {
+      "metric": "r2",
+      "value": 0.2494378412546271,
+      "actual_er": 0.5387089363657248,
+      "achieved_el0": 0.2188928872346878,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed1": {
+      "metric": "r2",
+      "value": 0.647301068903484,
+      "actual_er": 0.0,
+      "achieved_el0": 0.00025626813294366,
+      "budget_mode": "dual"
+    },
+    "stromal_seed1": {
+      "metric": "r2",
+      "value": 0.7183134247315099,
+      "actual_er": 0.02228348265563979,
+      "achieved_el0": 0.011197962798178196,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed1": {
+      "metric": "r2",
+      "value": 0.6141878032158092,
+      "actual_er": 0.49218929473926026,
+      "achieved_el0": 0.21275201439857483,
+      "budget_mode": "dual"
+    },
+    "tumor_ccrcc_seed2": {
+      "metric": "r2",
+      "value": 0.5387895852616349,
+      "actual_er": 0.0,
+      "achieved_el0": 2.018702434725128e-05,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed2": {
+      "metric": "r2",
+      "value": 0.24458229708444212,
+      "actual_er": 0.5750057431656329,
+      "achieved_el0": 0.22076401114463806,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed2": {
+      "metric": "r2",
+      "value": 0.5996588179204829,
+      "actual_er": 0.3592924419940271,
+      "achieved_el0": 0.14844372868537903,
+      "budget_mode": "dual"
+    },
+    "stromal_seed2": {
+      "metric": "r2",
+      "value": 0.7683269462952345,
+      "actual_er": 0.026648288536641397,
+      "achieved_el0": 0.014089427888393402,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed2": {
+      "metric": "r2",
+      "value": 0.61637918183899,
+      "actual_er": 0.5142430507695842,
+      "achieved_el0": 0.2132398784160614,
+      "budget_mode": "dual"
+    },
+    "cross_target_corr": {
+      "target_names": [
+        "endothelial",
+        "immune_infiltrate",
+        "normal_tubule",
+        "stromal",
+        "tumor_ccrcc"
+      ],
+      "matrix": [
+        [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        [
+          NaN,
+          1.0,
+          0.8661229937162709,
+          -0.18679946117655719,
+          NaN
+        ],
+        [
+          NaN,
+          0.8661229937162709,
+          1.0,
+          -0.17629439636950286,
+          NaN
+        ],
+        [
+          NaN,
+          -0.18679946117655719,
+          -0.17629439636950286,
+          1.0,
+          NaN
+        ],
+        [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ]
+      ]
+    }
+  },
+  "INT13": {
+    "tumor_ccrcc_seed0": {
+      "metric": "r2",
+      "value": 0.6687521715175319,
+      "actual_er": 0.5170146057964365,
+      "achieved_el0": 0.22549530863761902,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed0": {
+      "metric": "r2",
+      "value": 0.6053423233839039,
+      "actual_er": 0.6182228339833296,
+      "achieved_el0": 0.2251189947128296,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed0": {
+      "metric": "r2",
+      "value": 0.8428609451710409,
+      "actual_er": 0.4751472050164411,
+      "achieved_el0": 0.21297645568847656,
+      "budget_mode": "dual"
+    },
+    "stromal_seed0": {
+      "metric": "r2",
+      "value": 0.8284856912621155,
+      "actual_er": 0.999923529861589,
+      "achieved_el0": 0.49923256039619446,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed0": {
+      "metric": "r2",
+      "value": 0.15352042630328666,
+      "actual_er": 0.6016670490173587,
+      "achieved_el0": 0.22382541000843048,
+      "budget_mode": "dual"
+    },
+    "tumor_ccrcc_seed1": {
+      "metric": "r2",
+      "value": 0.6740195822528896,
+      "actual_er": 0.5446967959012006,
+      "achieved_el0": 0.21797025203704834,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed1": {
+      "metric": "r2",
+      "value": 0.6199155075674518,
+      "actual_er": 0.581173051923224,
+      "achieved_el0": 0.22987748682498932,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed1": {
+      "metric": "r2",
+      "value": 0.8218630848120688,
+      "actual_er": 0.4950676760724937,
+      "achieved_el0": 0.21301138401031494,
+      "budget_mode": "dual"
+    },
+    "stromal_seed1": {
+      "metric": "r2",
+      "value": 0.8204070792649245,
+      "actual_er": 1.0,
+      "achieved_el0": 0.5011753439903259,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed1": {
+      "metric": "r2",
+      "value": 0.14333532045076536,
+      "actual_er": 0.4185593025923377,
+      "achieved_el0": 0.23200522363185883,
+      "budget_mode": "dual"
+    },
+    "tumor_ccrcc_seed2": {
+      "metric": "r2",
+      "value": 0.6539420349742957,
+      "actual_er": 0.5894318268716067,
+      "achieved_el0": 0.22696763277053833,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed2": {
+      "metric": "r2",
+      "value": 0.5780110502922444,
+      "actual_er": 0.5402232928041599,
+      "achieved_el0": 0.21856684982776642,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed2": {
+      "metric": "r2",
+      "value": 0.8385830261084948,
+      "actual_er": 0.5437409191710637,
+      "achieved_el0": 0.2159532606601715,
+      "budget_mode": "dual"
+    },
+    "stromal_seed2": {
+      "metric": "r2",
+      "value": 0.8170191678963755,
+      "actual_er": 1.0,
+      "achieved_el0": 0.49999940395355225,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed2": {
+      "metric": "r2",
+      "value": 0.1565821150020219,
+      "actual_er": 0.5636231551579108,
+      "achieved_el0": 0.22116750478744507,
+      "budget_mode": "dual"
+    },
+    "cross_target_corr": {
+      "target_names": [
+        "endothelial",
+        "immune_infiltrate",
+        "normal_tubule",
+        "stromal",
+        "tumor_ccrcc"
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.3579228242005062,
+          0.2961700165327828,
+          NaN,
+          -0.03565615964217564
+        ],
+        [
+          0.3579228242005062,
+          1.0,
+          0.8554051640571393,
+          NaN,
+          0.0672581001864388
+        ],
+        [
+          0.2961700165327828,
+          0.8554051640571393,
+          1.0,
+          NaN,
+          0.08358038691959312
+        ],
+        [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        [
+          -0.035656159642175646,
+          0.06725810018643881,
+          0.08358038691959312,
+          NaN,
+          1.0
+        ]
+      ]
+    }
+  },
+  "INT14": {
+    "tumor_ccrcc_seed0": {
+      "metric": "r2",
+      "value": 0.24384384542043225,
+      "actual_er": 0.5447537629694579,
+      "achieved_el0": 0.22241055965423584,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed0": {
+      "metric": "r2",
+      "value": 0.5164976103038745,
+      "actual_er": 0.5268522577816747,
+      "achieved_el0": 0.22009170055389404,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed0": {
+      "metric": "r2",
+      "value": 0.6558506071871113,
+      "actual_er": 0.5159286862487213,
+      "achieved_el0": 0.21677739918231964,
+      "budget_mode": "dual"
+    },
+    "stromal_seed0": {
+      "metric": "r2",
+      "value": 0.7677190050940239,
+      "actual_er": 0.016403624141458423,
+      "achieved_el0": 0.008317042142152786,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed0": {
+      "metric": "r2",
+      "value": 0.29682974266001605,
+      "actual_er": 0.5359856787958498,
+      "achieved_el0": 0.22164644300937653,
+      "budget_mode": "dual"
+    },
+    "tumor_ccrcc_seed1": {
+      "metric": "r2",
+      "value": 0.22952319251207964,
+      "actual_er": 0.5756247259973696,
+      "achieved_el0": 0.22649407386779785,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed1": {
+      "metric": "r2",
+      "value": 0.4701140302423278,
+      "actual_er": 0.4552827707145989,
+      "achieved_el0": 0.22357463836669922,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed1": {
+      "metric": "r2",
+      "value": 0.6579666270353172,
+      "actual_er": 0.471722928540114,
+      "achieved_el0": 0.22199973464012146,
+      "budget_mode": "dual"
+    },
+    "stromal_seed1": {
+      "metric": "r2",
+      "value": 0.7844152353695687,
+      "actual_er": 1.0,
+      "achieved_el0": 0.49996453523635864,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed1": {
+      "metric": "r2",
+      "value": 0.275785200767655,
+      "actual_er": 0.49378927371036097,
+      "achieved_el0": 0.21538108587265015,
+      "budget_mode": "dual"
+    },
+    "tumor_ccrcc_seed2": {
+      "metric": "r2",
+      "value": 0.24781162851767957,
+      "actual_er": 0.6653149203565688,
+      "achieved_el0": 0.23456716537475586,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed2": {
+      "metric": "r2",
+      "value": 0.5037880352572219,
+      "actual_er": 0.49188952213941256,
+      "achieved_el0": 0.21290606260299683,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed2": {
+      "metric": "r2",
+      "value": 0.6455081950385031,
+      "actual_er": 0.5294826830337571,
+      "achieved_el0": 0.2204873412847519,
+      "budget_mode": "dual"
+    },
+    "stromal_seed2": {
+      "metric": "r2",
+      "value": 0.7843992464013972,
+      "actual_er": 0.01180037995031419,
+      "achieved_el0": 0.005606671329587698,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed2": {
+      "metric": "r2",
+      "value": 0.33638892157302736,
+      "actual_er": 0.4871401432120415,
+      "achieved_el0": 0.21113638579845428,
+      "budget_mode": "dual"
+    },
+    "cross_target_corr": {
+      "target_names": [
+        "endothelial",
+        "immune_infiltrate",
+        "normal_tubule",
+        "stromal",
+        "tumor_ccrcc"
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.6792413096341443,
+          0.6643504061375352,
+          NaN,
+          0.5704578942849337
+        ],
+        [
+          0.6792413096341442,
+          1.0,
+          0.8956873948495748,
+          NaN,
+          0.3474275156633972
+        ],
+        [
+          0.664350406137535,
+          0.8956873948495748,
+          1.0,
+          NaN,
+          0.3539059406397393
+        ],
+        [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        [
+          0.5704578942849337,
+          0.3474275156633972,
+          0.35390594063973935,
+          NaN,
+          1.0
+        ]
+      ]
+    }
+  },
+  "INT15": {
+    "tumor_ccrcc_seed0": {
+      "metric": "r2",
+      "value": 0.3691631658186677,
+      "actual_er": 0.42520242914979756,
+      "achieved_el0": 0.2063855230808258,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed0": {
+      "metric": "r2",
+      "value": 0.5776069382454854,
+      "actual_er": 0.5477058029689609,
+      "achieved_el0": 0.21744351089000702,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed0": {
+      "metric": "r2",
+      "value": 0.6281616094367478,
+      "actual_er": 0.5326248313090418,
+      "achieved_el0": 0.2190757691860199,
+      "budget_mode": "dual"
+    },
+    "stromal_seed0": {
+      "metric": "r2",
+      "value": 0.8090132830369026,
+      "actual_er": 1.0,
+      "achieved_el0": 0.49998190999031067,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed0": {
+      "metric": "r2",
+      "value": 0.22702321148789717,
+      "actual_er": 0.6082658569500675,
+      "achieved_el0": 0.22272448241710663,
+      "budget_mode": "dual"
+    },
+    "tumor_ccrcc_seed1": {
+      "metric": "r2",
+      "value": 0.3915424634119149,
+      "actual_er": 0.6207827260458839,
+      "achieved_el0": 0.22509834170341492,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed1": {
+      "metric": "r2",
+      "value": 0.5796492734618671,
+      "actual_er": 0.5029014844804318,
+      "achieved_el0": 0.22981923818588257,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed1": {
+      "metric": "r2",
+      "value": 0.6048227934103665,
+      "actual_er": 0.5050944669365722,
+      "achieved_el0": 0.2213144749403,
+      "budget_mode": "dual"
+    },
+    "stromal_seed1": {
+      "metric": "r2",
+      "value": 0.8129385414784674,
+      "actual_er": 1.0,
+      "achieved_el0": 0.49999722838401794,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed1": {
+      "metric": "r2",
+      "value": 0.1689340331406629,
+      "actual_er": 0.5145074224021593,
+      "achieved_el0": 0.22658859193325043,
+      "budget_mode": "dual"
+    },
+    "tumor_ccrcc_seed2": {
+      "metric": "r2",
+      "value": 0.3581436526630414,
+      "actual_er": 0.6287449392712551,
+      "achieved_el0": 0.22388823330402374,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed2": {
+      "metric": "r2",
+      "value": 0.5310367835786209,
+      "actual_er": 0.5350539811066127,
+      "achieved_el0": 0.2160220593214035,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed2": {
+      "metric": "r2",
+      "value": 0.5982926488043008,
+      "actual_er": 0.5774291497975709,
+      "achieved_el0": 0.2195110321044922,
+      "budget_mode": "dual"
+    },
+    "stromal_seed2": {
+      "metric": "r2",
+      "value": 0.8091853048662593,
+      "actual_er": 1.0,
+      "achieved_el0": 0.4999920129776001,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed2": {
+      "metric": "r2",
+      "value": 0.22976279936846156,
+      "actual_er": 0.5667004048582996,
+      "achieved_el0": 0.21824076771736145,
+      "budget_mode": "dual"
+    },
+    "cross_target_corr": {
+      "target_names": [
+        "endothelial",
+        "immune_infiltrate",
+        "normal_tubule",
+        "stromal",
+        "tumor_ccrcc"
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.8198697462906154,
+          0.8171252651750874,
+          NaN,
+          0.6433339114765996
+        ],
+        [
+          0.8198697462906154,
+          1.0,
+          0.8200715799414225,
+          NaN,
+          0.6926713209187941
+        ],
+        [
+          0.8171252651750874,
+          0.8200715799414225,
+          1.0,
+          NaN,
+          0.614708539019737
+        ],
+        [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        [
+          0.6433339114765996,
+          0.692671320918794,
+          0.614708539019737,
+          NaN,
+          1.0
+        ]
+      ]
+    }
+  },
+  "INT16": {
+    "tumor_ccrcc_seed0": {
+      "metric": "r2",
+      "value": 0.765542621719316,
+      "actual_er": 0.5801621958827199,
+      "achieved_el0": 0.22110982239246368,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed0": {
+      "metric": "r2",
+      "value": 0.6057033825104985,
+      "actual_er": 0.6315762112705344,
+      "achieved_el0": 0.23099379241466522,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed0": {
+      "metric": "r2",
+      "value": 0.6169555489253638,
+      "actual_er": 0.6282491162403826,
+      "achieved_el0": 0.22964349389076233,
+      "budget_mode": "dual"
+    },
+    "stromal_seed0": {
+      "metric": "r2",
+      "value": 0.7170060323598006,
+      "actual_er": 1.0,
+      "achieved_el0": 0.5003004670143127,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed0": {
+      "metric": "r2",
+      "value": 0.2947088132667961,
+      "actual_er": 0.6400499064254522,
+      "achieved_el0": 0.23200976848602295,
+      "budget_mode": "dual"
+    },
+    "tumor_ccrcc_seed1": {
+      "metric": "r2",
+      "value": 0.7668954502841197,
+      "actual_er": 0.550322312331046,
+      "achieved_el0": 0.22179272770881653,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed1": {
+      "metric": "r2",
+      "value": 0.5772367447346388,
+      "actual_er": 0.5607194843002703,
+      "achieved_el0": 0.2287290245294571,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed1": {
+      "metric": "r2",
+      "value": 0.6527983194825564,
+      "actual_er": 0.565294239966729,
+      "achieved_el0": 0.22267238795757294,
+      "budget_mode": "dual"
+    },
+    "stromal_seed1": {
+      "metric": "r2",
+      "value": 0.7368374951207042,
+      "actual_er": 1.0,
+      "achieved_el0": 0.9991008043289185,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed1": {
+      "metric": "r2",
+      "value": 0.36755414851018586,
+      "actual_er": 0.49984404242046165,
+      "achieved_el0": 0.23463188111782074,
+      "budget_mode": "dual"
+    },
+    "tumor_ccrcc_seed2": {
+      "metric": "r2",
+      "value": 0.790585488417939,
+      "actual_er": 0.5422645040548971,
+      "achieved_el0": 0.22185003757476807,
+      "budget_mode": "dual"
+    },
+    "immune_infiltrate_seed2": {
+      "metric": "r2",
+      "value": 0.5694618090536785,
+      "actual_er": 0.6047515075899356,
+      "achieved_el0": 0.22090213000774384,
+      "budget_mode": "dual"
+    },
+    "endothelial_seed2": {
+      "metric": "r2",
+      "value": 0.6341883276971126,
+      "actual_er": 0.622010813058848,
+      "achieved_el0": 0.22393833100795746,
+      "budget_mode": "dual"
+    },
+    "stromal_seed2": {
+      "metric": "r2",
+      "value": 0.7535187091368927,
+      "actual_er": 1.0,
+      "achieved_el0": 0.9999912977218628,
+      "budget_mode": "dual"
+    },
+    "normal_tubule_seed2": {
+      "metric": "r2",
+      "value": 0.40697722330464225,
+      "actual_er": 0.6270534414639218,
+      "achieved_el0": 0.22483883798122406,
+      "budget_mode": "dual"
+    },
+    "cross_target_corr": {
+      "target_names": [
+        "endothelial",
+        "immune_infiltrate",
+        "normal_tubule",
+        "stromal",
+        "tumor_ccrcc"
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.5426185794026742,
+          0.6818077835776483,
+          NaN,
+          0.06518226264890759
+        ],
+        [
+          0.5426185794026742,
+          1.0,
+          0.7148262605820997,
+          NaN,
+          0.039896792784733036
+        ],
+        [
+          0.6818077835776483,
+          0.7148262605820999,
+          1.0,
+          NaN,
+          0.1734026540756394
+        ],
+        [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          NaN
+        ],
+        [
+          0.06518226264890759,
+          0.03989679278473302,
+          0.1734026540756394,
+          NaN,
+          1.0
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "seed": 5,
+    "selector": "tsb_submitted",
+    "protocol": "end_to_end",
+    "macro_f1": 0.9392861352223474,
+    "edge_rate": 0.20233193039894104,
+    "budget_error": 0.002331930398941029
+  },
+  {
+    "seed": 5,
+    "selector": "tsb_final",
+    "protocol": "end_to_end",
+    "macro_f1": 0.9371319878021064,
+    "edge_rate": 0.2187739908695221,
+    "budget_error": 0.018773990869522084
+  },
+  {
+    "seed": 5,
+    "selector": "plain_gcn_full",
+    "protocol": "reference",
+    "macro_f1": 0.8990490216715608,
+    "edge_rate": 1.0,
+    "frac_isolated": 0.0
+  },
+  {
+    "seed": 5,
+    "selector": "feature_mlp",
+    "protocol": "reference",
+    "macro_f1": 0.9381503843675215,
+    "edge_rate": 0.0,
+    "frac_isolated": 1.0
+  },
+  {
+    "seed": 5,
+    "selector": "tsb_final",
+    "protocol": "transfer_gcn",
+    "macro_f1": 0.9188750143024259,
+    "edge_rate": 0.21875,
+    "frac_isolated": 0.42075892857142855
+  },
+  {
+    "seed": 5,
+    "selector": "tsb_submitted",
+    "protocol": "transfer_gcn",
+    "macro_f1": 0.9262945254689516,
+    "edge_rate": 0.21875,
+    "frac_isolated": 0.6476934523809523
+  },
+  {
+    "seed": 5,
+    "selector": "random",
+    "protocol": "transfer_gcn",
+    "macro_f1": 0.7847118546065277,
+    "edge_rate": 0.21875,
+    "frac_isolated": 0.055431547619047616
+  }
+]

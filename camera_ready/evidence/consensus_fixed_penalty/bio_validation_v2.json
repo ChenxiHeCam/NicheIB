@@ -1,0 +1,748 @@
+{
+  "heldout_marker_morans": {
+    "excitatory_neuron|excitatory_neuron": {
+      "tsb_enhancement": 0.565435604604301,
+      "random_enhancement": 0.9945033903131589,
+      "n_sections": 12,
+      "n_genes_mean": 5.0,
+      "density_matched_enhancement": 0.622365547033871
+    },
+    "excitatory_neuron|oligodendrocyte": {
+      "tsb_enhancement": 0.4228021377776561,
+      "random_enhancement": 0.9822929662839828,
+      "n_sections": 12,
+      "n_genes_mean": 4.833333333333333,
+      "density_matched_enhancement": 0.5753440489992446
+    },
+    "excitatory_neuron|astrocyte": {
+      "tsb_enhancement": 0.8434998494677154,
+      "random_enhancement": 1.0111488844458238,
+      "n_sections": 12,
+      "n_genes_mean": 4.583333333333333,
+      "density_matched_enhancement": 0.8962025441735032
+    },
+    "excitatory_neuron|microglia": {
+      "tsb_enhancement": 0.7347102244772704,
+      "random_enhancement": 0.9499870682072592,
+      "n_sections": 6,
+      "n_genes_mean": 1.5,
+      "density_matched_enhancement": 1.0462358262906808
+    },
+    "oligodendrocyte|excitatory_neuron": {
+      "tsb_enhancement": 1.2360012951182169,
+      "random_enhancement": 1.0039315641353017,
+      "n_sections": 12,
+      "n_genes_mean": 5.0,
+      "density_matched_enhancement": 1.3698880923966958
+    },
+    "oligodendrocyte|oligodendrocyte": {
+      "tsb_enhancement": 2.769797446866763,
+      "random_enhancement": 1.0081370610208953,
+      "n_sections": 12,
+      "n_genes_mean": 4.833333333333333,
+      "density_matched_enhancement": 2.3894356516894684
+    },
+    "oligodendrocyte|astrocyte": {
+      "tsb_enhancement": 1.229954686815303,
+      "random_enhancement": 1.0050170538356327,
+      "n_sections": 12,
+      "n_genes_mean": 4.583333333333333,
+      "density_matched_enhancement": 1.2944455888108655
+    },
+    "oligodendrocyte|microglia": {
+      "tsb_enhancement": 0.9422459422798047,
+      "random_enhancement": 1.1201855465895314,
+      "n_sections": 6,
+      "n_genes_mean": 1.5,
+      "density_matched_enhancement": 1.3035371200104666
+    },
+    "astrocyte|excitatory_neuron": {
+      "tsb_enhancement": 1.9171039916616976,
+      "random_enhancement": 0.9992451672556832,
+      "n_sections": 12,
+      "n_genes_mean": 5.0,
+      "density_matched_enhancement": 2.0512561477746596
+    },
+    "astrocyte|oligodendrocyte": {
+      "tsb_enhancement": 2.5083579715523237,
+      "random_enhancement": 0.989802571607434,
+      "n_sections": 12,
+      "n_genes_mean": 4.833333333333333,
+      "density_matched_enhancement": 2.194919099873217
+    },
+    "astrocyte|astrocyte": {
+      "tsb_enhancement": 1.8903396755796738,
+      "random_enhancement": 0.9785509895277585,
+      "n_sections": 12,
+      "n_genes_mean": 4.583333333333333,
+      "density_matched_enhancement": 1.7167360229770185
+    },
+    "astrocyte|microglia": {
+      "tsb_enhancement": 1.3352437530996744,
+      "random_enhancement": 1.2809462454786704,
+      "n_sections": 6,
+      "n_genes_mean": 1.5,
+      "density_matched_enhancement": 1.5710266629627239
+    },
+    "microglia|excitatory_neuron": {
+      "tsb_enhancement": 0.6176318524085556,
+      "random_enhancement": 1.0041794898543661,
+      "n_sections": 12,
+      "n_genes_mean": 5.0,
+      "density_matched_enhancement": 0.7266548554905942
+    },
+    "microglia|oligodendrocyte": {
+      "tsb_enhancement": 0.5544513239155558,
+      "random_enhancement": 0.9798573060968653,
+      "n_sections": 12,
+      "n_genes_mean": 4.833333333333333,
+      "density_matched_enhancement": 0.5980688519399241
+    },
+    "microglia|astrocyte": {
+      "tsb_enhancement": 0.920624712229881,
+      "random_enhancement": 0.9970103918846411,
+      "n_sections": 12,
+      "n_genes_mean": 4.583333333333333,
+      "density_matched_enhancement": 1.0532754160880933
+    },
+    "microglia|microglia": {
+      "tsb_enhancement": 0.831437710747537,
+      "random_enhancement": 0.877792832489697,
+      "n_sections": 6,
+      "n_genes_mean": 1.5,
+      "density_matched_enhancement": 1.0342483329145378
+    }
+  },
+  "annotation_gate_morans": {
+    "oligodendrocyte": {
+      "tsb_enhancement": 0.6666164296998921,
+      "random_enhancement": 1.007634540475912,
+      "n_sections": 12,
+      "n_genes_mean": 4.0
+    },
+    "astrocyte": {
+      "tsb_enhancement": 0.6679074794816678,
+      "random_enhancement": 0.9913545795514461,
+      "n_sections": 12,
+      "n_genes_mean": 3.9166666666666665
+    },
+    "excitatory_neuron": {
+      "tsb_enhancement": 0.986665564449765,
+      "random_enhancement": 0.9903604057701555,
+      "n_sections": 12,
+      "n_genes_mean": 4.75
+    }
+  },
+  "lr_enrichment": {
+    "oligodendrocyte": {
+      "n_sections": 12,
+      "vs_bottom20": 4.863286417944869,
+      "vs_uniform_random": 2.3150755004469086,
+      "vs_density_matched": 1.0152465194285678,
+      "vs_library_matched": 1.346376958528148,
+      "density_ratio_top_vs_uniform": 1.6335814207859805
+    },
+    "astrocyte": {
+      "n_sections": 12,
+      "vs_bottom20": 1.7250187724699912,
+      "vs_uniform_random": 1.3675443274858248,
+      "vs_density_matched": 1.0992774014832505,
+      "vs_library_matched": 1.3802278174666684,
+      "density_ratio_top_vs_uniform": 1.1402327051142602
+    },
+    "microglia": {
+      "n_sections": 12,
+      "vs_bottom20": 1.0647974637578053,
+      "vs_uniform_random": 1.028347522573839,
+      "vs_density_matched": 1.0512413747949956,
+      "vs_library_matched": 1.1610981234549287,
+      "density_ratio_top_vs_uniform": 0.9702724298459674
+    },
+    "excitatory_neuron": {
+      "n_sections": 12,
+      "vs_bottom20": 0.8859960865465338,
+      "vs_uniform_random": 0.7963447699938517,
+      "vs_density_matched": 0.8358135205881029,
+      "vs_library_matched": 0.8736360505382907,
+      "density_ratio_top_vs_uniform": 0.9113294883190338
+    }
+  },
+  "lr_per_section": [
+    {
+      "section": "151507",
+      "cell_type": "oligodendrocyte",
+      "lr_top": 0.6220011711120605,
+      "lr_bottom": 0.12715107202529907,
+      "lr_uniform_random": 0.26669843792915343,
+      "lr_density_matched": 0.6115585124492645,
+      "lr_library_matched": 0.3958616530895233,
+      "density_top": 1.7875186204910278,
+      "density_matched": 1.7635973691940308,
+      "density_uniform": 1.0378801822662354
+    },
+    {
+      "section": "151507",
+      "cell_type": "astrocyte",
+      "lr_top": 0.6726445555686951,
+      "lr_bottom": 0.24341414868831635,
+      "lr_uniform_random": 0.3360752499103546,
+      "lr_density_matched": 0.600359537601471,
+      "lr_library_matched": 0.297831729054451,
+      "density_top": 1.7976484298706055,
+      "density_matched": 1.7836520671844482,
+      "density_uniform": 1.2658663988113403
+    },
+    {
+      "section": "151507",
+      "cell_type": "microglia",
+      "lr_top": 0.04375126212835312,
+      "lr_bottom": 0.04881669953465462,
+      "lr_uniform_random": 0.04659079849720001,
+      "lr_density_matched": 0.04435679502785206,
+      "lr_library_matched": 0.03972442455589771,
+      "density_top": 0.1398325264453888,
+      "density_matched": 0.14247506856918335,
+      "density_uniform": 0.1518152952194214
+    },
+    {
+      "section": "151507",
+      "cell_type": "excitatory_neuron",
+      "lr_top": 0.30884599685668945,
+      "lr_bottom": 0.8776061534881592,
+      "lr_uniform_random": 0.564535859823227,
+      "lr_density_matched": 0.449640274643898,
+      "lr_library_matched": 0.4662336301803589,
+      "density_top": 0.31376779079437256,
+      "density_matched": 0.3170967996120453,
+      "density_uniform": 0.426463782787323
+    },
+    {
+      "section": "151508",
+      "cell_type": "oligodendrocyte",
+      "lr_top": 0.455748975276947,
+      "lr_bottom": 0.09284565597772598,
+      "lr_uniform_random": 0.19912027716636657,
+      "lr_density_matched": 0.44055008351802827,
+      "lr_library_matched": 0.26005790174007415,
+      "density_top": 1.6161810159683228,
+      "density_matched": 1.588058590888977,
+      "density_uniform": 0.9543942213058472
+    },
+    {
+      "section": "151508",
+      "cell_type": "astrocyte",
+      "lr_top": 0.4965139925479889,
+      "lr_bottom": 0.19170911610126495,
+      "lr_uniform_random": 0.285635045170784,
+      "lr_density_matched": 0.4531223750114441,
+      "lr_library_matched": 0.26116479814052584,
+      "density_top": 1.629387378692627,
+      "density_matched": 1.618161678314209,
+      "density_uniform": 1.1955842971801758
+    },
+    {
+      "section": "151508",
+      "cell_type": "microglia",
+      "lr_top": 0.03806407004594803,
+      "lr_bottom": 0.05078200250864029,
+      "lr_uniform_random": 0.04469323322176933,
+      "lr_density_matched": 0.03524754676967859,
+      "lr_library_matched": 0.03411670461297035,
+      "density_top": 0.11081907898187637,
+      "density_matched": 0.11281587928533554,
+      "density_uniform": 0.13822053372859955
+    },
+    {
+      "section": "151508",
+      "cell_type": "excitatory_neuron",
+      "lr_top": 0.315975546836853,
+      "lr_bottom": 0.7733206748962402,
+      "lr_uniform_random": 0.4754185116291046,
+      "lr_density_matched": 0.4152739465236664,
+      "lr_library_matched": 0.37814993619918824,
+      "density_top": 0.3471478819847107,
+      "density_matched": 0.3466178774833679,
+      "density_uniform": 0.4129469394683838
+    },
+    {
+      "section": "151509",
+      "cell_type": "oligodendrocyte",
+      "lr_top": 0.6261395812034607,
+      "lr_bottom": 0.12142544239759445,
+      "lr_uniform_random": 0.2465536168217659,
+      "lr_density_matched": 0.5405903995037079,
+      "lr_library_matched": 0.3522042375802994,
+      "density_top": 1.5494709014892578,
+      "density_matched": 1.4791901111602783,
+      "density_uniform": 0.9341011643409729
+    },
+    {
+      "section": "151509",
+      "cell_type": "astrocyte",
+      "lr_top": 0.6048556566238403,
+      "lr_bottom": 0.2734781503677368,
+      "lr_uniform_random": 0.38174395859241483,
+      "lr_density_matched": 0.5292273783683776,
+      "lr_library_matched": 0.34068587720394133,
+      "density_top": 1.6340842247009277,
+      "density_matched": 1.6278055906295776,
+      "density_uniform": 1.3224928379058838
+    },
+    {
+      "section": "151509",
+      "cell_type": "microglia",
+      "lr_top": 0.04925014078617096,
+      "lr_bottom": 0.05523402988910675,
+      "lr_uniform_random": 0.04952593505382538,
+      "lr_density_matched": 0.04616997182369232,
+      "lr_library_matched": 0.04292482949793339,
+      "density_top": 0.1413128823041916,
+      "density_matched": 0.14247161149978638,
+      "density_uniform": 0.1515895128250122
+    },
+    {
+      "section": "151509",
+      "cell_type": "excitatory_neuron",
+      "lr_top": 0.27001720666885376,
+      "lr_bottom": 0.8643814921379089,
+      "lr_uniform_random": 0.57440842628479,
+      "lr_density_matched": 0.46256115078926086,
+      "lr_library_matched": 0.4154470545053482,
+      "density_top": 0.33328303694725037,
+      "density_matched": 0.3343054950237274,
+      "density_uniform": 0.43557626008987427
+    },
+    {
+      "section": "151510",
+      "cell_type": "oligodendrocyte",
+      "lr_top": 0.6530468463897705,
+      "lr_bottom": 0.09886575490236282,
+      "lr_uniform_random": 0.24370131880044937,
+      "lr_density_matched": 0.6270143604278564,
+      "lr_library_matched": 0.45387313187122347,
+      "density_top": 1.6875431537628174,
+      "density_matched": 1.652103066444397,
+      "density_uniform": 0.9511386752128601
+    },
+    {
+      "section": "151510",
+      "cell_type": "astrocyte",
+      "lr_top": 0.6584722399711609,
+      "lr_bottom": 0.23892079293727875,
+      "lr_uniform_random": 0.3586769074201584,
+      "lr_density_matched": 0.5475549530982972,
+      "lr_library_matched": 0.3301976162195206,
+      "density_top": 1.786515474319458,
+      "density_matched": 1.7705070972442627,
+      "density_uniform": 1.3263169527053833
+    },
+    {
+      "section": "151510",
+      "cell_type": "microglia",
+      "lr_top": 0.0393398180603981,
+      "lr_bottom": 0.049983248114585876,
+      "lr_uniform_random": 0.04300969518721104,
+      "lr_density_matched": 0.04427234724164009,
+      "lr_library_matched": 0.03883796475827694,
+      "density_top": 0.1482807993888855,
+      "density_matched": 0.15017618238925934,
+      "density_uniform": 0.14590387046337128
+    },
+    {
+      "section": "151510",
+      "cell_type": "excitatory_neuron",
+      "lr_top": 0.2859988212585449,
+      "lr_bottom": 0.8064125180244446,
+      "lr_uniform_random": 0.5567843925952911,
+      "lr_density_matched": 0.4449023115634918,
+      "lr_library_matched": 0.4340619933605194,
+      "density_top": 0.317880779504776,
+      "density_matched": 0.3186704218387604,
+      "density_uniform": 0.42225268483161926
+    },
+    {
+      "section": "151669",
+      "cell_type": "oligodendrocyte",
+      "lr_top": 0.5365966558456421,
+      "lr_bottom": 0.19019067287445068,
+      "lr_uniform_random": 0.3270636475086212,
+      "lr_density_matched": 0.5626065707206727,
+      "lr_library_matched": 0.44868257761001584,
+      "density_top": 1.457940936088562,
+      "density_matched": 1.4425032138824463,
+      "density_uniform": 1.046571135520935
+    },
+    {
+      "section": "151669",
+      "cell_type": "astrocyte",
+      "lr_top": 0.41500139236450195,
+      "lr_bottom": 0.47925665974617004,
+      "lr_uniform_random": 0.4389714282751083,
+      "lr_density_matched": 0.4185302186012268,
+      "lr_library_matched": 0.42245071232318876,
+      "density_top": 1.3607019186019897,
+      "density_matched": 1.3649110794067383,
+      "density_uniform": 1.412736415863037
+    },
+    {
+      "section": "151669",
+      "cell_type": "microglia",
+      "lr_top": 0.05387451499700546,
+      "lr_bottom": 0.022621022537350655,
+      "lr_uniform_random": 0.03546191744506359,
+      "lr_density_matched": 0.037127595692873,
+      "lr_library_matched": 0.03257489029318094,
+      "density_top": 0.1324157863855362,
+      "density_matched": 0.13196104764938354,
+      "density_uniform": 0.12541945278644562
+    },
+    {
+      "section": "151669",
+      "cell_type": "excitatory_neuron",
+      "lr_top": 0.524203360080719,
+      "lr_bottom": 0.4899681806564331,
+      "lr_uniform_random": 0.57640900015831,
+      "lr_density_matched": 0.5604394507408142,
+      "lr_library_matched": 0.5084342586994172,
+      "density_top": 0.4839772582054138,
+      "density_matched": 0.4825822114944458,
+      "density_uniform": 0.4992447793483734
+    },
+    {
+      "section": "151670",
+      "cell_type": "oligodendrocyte",
+      "lr_top": 0.5774240493774414,
+      "lr_bottom": 0.1345118284225464,
+      "lr_uniform_random": 0.29726160764694215,
+      "lr_density_matched": 0.5931165194511414,
+      "lr_library_matched": 0.4699083751440048,
+      "density_top": 1.5385305881500244,
+      "density_matched": 1.5213285684585571,
+      "density_uniform": 1.0160646438598633
+    },
+    {
+      "section": "151670",
+      "cell_type": "astrocyte",
+      "lr_top": 0.39606571197509766,
+      "lr_bottom": 0.30289196968078613,
+      "lr_uniform_random": 0.3333319854736328,
+      "lr_density_matched": 0.35094470262527466,
+      "lr_library_matched": 0.37184699773788454,
+      "density_top": 1.390124797821045,
+      "density_matched": 1.3968924283981323,
+      "density_uniform": 1.3447086811065674
+    },
+    {
+      "section": "151670",
+      "cell_type": "microglia",
+      "lr_top": 0.02713382989168167,
+      "lr_bottom": 0.02801513671875,
+      "lr_uniform_random": 0.028250828981399537,
+      "lr_density_matched": 0.025448871850967406,
+      "lr_library_matched": 0.02372488234192133,
+      "density_top": 0.10370855778455734,
+      "density_matched": 0.10302169620990753,
+      "density_uniform": 0.11766394972801208
+    },
+    {
+      "section": "151670",
+      "cell_type": "excitatory_neuron",
+      "lr_top": 0.41045907139778137,
+      "lr_bottom": 0.6776437759399414,
+      "lr_uniform_random": 0.5619761312007904,
+      "lr_density_matched": 0.5128610509634018,
+      "lr_library_matched": 0.454545077085495,
+      "density_top": 0.4247221052646637,
+      "density_matched": 0.4225577116012573,
+      "density_uniform": 0.4894335865974426
+    },
+    {
+      "section": "151671",
+      "cell_type": "oligodendrocyte",
+      "lr_top": 0.5436777472496033,
+      "lr_bottom": 0.22484688460826874,
+      "lr_uniform_random": 0.3572293072938919,
+      "lr_density_matched": 0.5245946741104126,
+      "lr_library_matched": 0.41608732640743257,
+      "density_top": 1.4907535314559937,
+      "density_matched": 1.4823368787765503,
+      "density_uniform": 1.194512963294983
+    },
+    {
+      "section": "151671",
+      "cell_type": "astrocyte",
+      "lr_top": 0.3689613342285156,
+      "lr_bottom": 0.43795129656791687,
+      "lr_uniform_random": 0.38439641654491424,
+      "lr_density_matched": 0.3829280287027359,
+      "lr_library_matched": 0.34097048163414,
+      "density_top": 1.3110288381576538,
+      "density_matched": 1.3068134784698486,
+      "density_uniform": 1.3023254871368408
+    },
+    {
+      "section": "151671",
+      "cell_type": "microglia",
+      "lr_top": 0.03793739899992943,
+      "lr_bottom": 0.025887036696076393,
+      "lr_uniform_random": 0.03364572148770094,
+      "lr_density_matched": 0.03491863861680031,
+      "lr_library_matched": 0.03308157689869404,
+      "density_top": 0.12519510090351105,
+      "density_matched": 0.12663283944129944,
+      "density_uniform": 0.12485869228839874
+    },
+    {
+      "section": "151671",
+      "cell_type": "excitatory_neuron",
+      "lr_top": 0.5170907378196716,
+      "lr_bottom": 0.5974400639533997,
+      "lr_uniform_random": 0.5764697861671447,
+      "lr_density_matched": 0.5705700719356537,
+      "lr_library_matched": 0.550285701751709,
+      "density_top": 0.49470949172973633,
+      "density_matched": 0.48994722962379456,
+      "density_uniform": 0.5053266882896423
+    },
+    {
+      "section": "151672",
+      "cell_type": "oligodendrocyte",
+      "lr_top": 0.44551002979278564,
+      "lr_bottom": 0.3252970576286316,
+      "lr_uniform_random": 0.38518899083137514,
+      "lr_density_matched": 0.4968904846906662,
+      "lr_library_matched": 0.3915627509355545,
+      "density_top": 1.5050190687179565,
+      "density_matched": 1.5012646913528442,
+      "density_uniform": 1.257253646850586
+    },
+    {
+      "section": "151672",
+      "cell_type": "astrocyte",
+      "lr_top": 0.3807123005390167,
+      "lr_bottom": 0.4182816743850708,
+      "lr_uniform_random": 0.3938974547386169,
+      "lr_density_matched": 0.3908961355686188,
+      "lr_library_matched": 0.3461323368549347,
+      "density_top": 1.3278602361679077,
+      "density_matched": 1.3232043981552124,
+      "density_uniform": 1.3380072116851807
+    },
+    {
+      "section": "151672",
+      "cell_type": "microglia",
+      "lr_top": 0.039065390825271606,
+      "lr_bottom": 0.02825610153377056,
+      "lr_uniform_random": 0.03199874445796013,
+      "lr_density_matched": 0.03222994647920132,
+      "lr_library_matched": 0.030348940677940847,
+      "density_top": 0.1220136359333992,
+      "density_matched": 0.12264177203178406,
+      "density_uniform": 0.12156928330659866
+    },
+    {
+      "section": "151672",
+      "cell_type": "excitatory_neuron",
+      "lr_top": 0.4452320337295532,
+      "lr_bottom": 0.6349875330924988,
+      "lr_uniform_random": 0.5676406657695771,
+      "lr_density_matched": 0.5261734545230865,
+      "lr_library_matched": 0.5228160411119461,
+      "density_top": 0.44442522525787354,
+      "density_matched": 0.4378727376461029,
+      "density_uniform": 0.4991542100906372
+    },
+    {
+      "section": "151673",
+      "cell_type": "oligodendrocyte",
+      "lr_top": 2.828101634979248,
+      "lr_bottom": 0.4000597596168518,
+      "lr_uniform_random": 0.9285985159873963,
+      "lr_density_matched": 2.7948205614089967,
+      "lr_library_matched": 2.3948674631118774,
+      "density_top": 3.151968479156494,
+      "density_matched": 3.127553701400757,
+      "density_uniform": 1.6267330646514893
+    },
+    {
+      "section": "151673",
+      "cell_type": "astrocyte",
+      "lr_top": 0.6753109693527222,
+      "lr_bottom": 0.30541908740997314,
+      "lr_uniform_random": 0.42803124904632567,
+      "lr_density_matched": 0.5219187879562378,
+      "lr_library_matched": 0.5714206457138061,
+      "density_top": 1.5746737718582153,
+      "density_matched": 1.566927433013916,
+      "density_uniform": 1.397066354751587
+    },
+    {
+      "section": "151673",
+      "cell_type": "microglia",
+      "lr_top": 0.044797562062740326,
+      "lr_bottom": 0.06251337379217148,
+      "lr_uniform_random": 0.05147895663976669,
+      "lr_density_matched": 0.04940502211451531,
+      "lr_library_matched": 0.04622613199055195,
+      "density_top": 0.16462334990501404,
+      "density_matched": 0.1633690893650055,
+      "density_uniform": 0.16876810789108276
+    },
+    {
+      "section": "151673",
+      "cell_type": "excitatory_neuron",
+      "lr_top": 0.5798536539077759,
+      "lr_bottom": 0.8963930010795593,
+      "lr_uniform_random": 0.8817535221576691,
+      "lr_density_matched": 0.7714055061340332,
+      "lr_library_matched": 0.7334057307243347,
+      "density_top": 0.47075456380844116,
+      "density_matched": 0.4684905707836151,
+      "density_uniform": 0.5454491972923279
+    },
+    {
+      "section": "151674",
+      "cell_type": "oligodendrocyte",
+      "lr_top": 2.5130224227905273,
+      "lr_bottom": 0.4133777618408203,
+      "lr_uniform_random": 0.913913711309433,
+      "lr_density_matched": 2.4626968908309936,
+      "lr_library_matched": 2.154862756729126,
+      "density_top": 2.9245591163635254,
+      "density_matched": 2.8944082260131836,
+      "density_uniform": 1.6490322351455688
+    },
+    {
+      "section": "151674",
+      "cell_type": "astrocyte",
+      "lr_top": 0.8764256238937378,
+      "lr_bottom": 0.43461868166923523,
+      "lr_uniform_random": 0.5983139789104461,
+      "lr_density_matched": 0.7171551430225372,
+      "lr_library_matched": 0.774893525838852,
+      "density_top": 1.643079161643982,
+      "density_matched": 1.6372904777526855,
+      "density_uniform": 1.46796452999115
+    },
+    {
+      "section": "151674",
+      "cell_type": "microglia",
+      "lr_top": 0.08467838168144226,
+      "lr_bottom": 0.07805527001619339,
+      "lr_uniform_random": 0.07733579486608505,
+      "lr_density_matched": 0.08156850844621659,
+      "lr_library_matched": 0.07362182006239891,
+      "density_top": 0.20313629508018494,
+      "density_matched": 0.20257334411144257,
+      "density_uniform": 0.1946643590927124
+    },
+    {
+      "section": "151674",
+      "cell_type": "excitatory_neuron",
+      "lr_top": 1.059584140777588,
+      "lr_bottom": 0.5227958559989929,
+      "lr_uniform_random": 0.9390317237377167,
+      "lr_density_matched": 1.028594090938568,
+      "lr_library_matched": 1.0322267532348632,
+      "density_top": 0.6144406199455261,
+      "density_matched": 0.613409161567688,
+      "density_uniform": 0.5609413981437683
+    },
+    {
+      "section": "151675",
+      "cell_type": "oligodendrocyte",
+      "lr_top": 2.2768287658691406,
+      "lr_bottom": 0.381919264793396,
+      "lr_uniform_random": 0.7868454432487488,
+      "lr_density_matched": 2.249904589653015,
+      "lr_library_matched": 1.864257664680481,
+      "density_top": 2.977691888809204,
+      "density_matched": 2.9483442306518555,
+      "density_uniform": 1.5900856256484985
+    },
+    {
+      "section": "151675",
+      "cell_type": "astrocyte",
+      "lr_top": 0.40679627656936646,
+      "lr_bottom": 0.3528207838535309,
+      "lr_uniform_random": 0.38775409579277037,
+      "lr_density_matched": 0.4465347683429718,
+      "lr_library_matched": 0.4100857126712799,
+      "density_top": 1.4387576580047607,
+      "density_matched": 1.4370465278625488,
+      "density_uniform": 1.3378360271453857
+    },
+    {
+      "section": "151675",
+      "cell_type": "microglia",
+      "lr_top": 0.041582658886909485,
+      "lr_bottom": 0.055316098034381866,
+      "lr_uniform_random": 0.045691142678260806,
+      "lr_density_matched": 0.046465578451752663,
+      "lr_library_matched": 0.037546451389789584,
+      "density_top": 0.15154698491096497,
+      "density_matched": 0.15072908997535706,
+      "density_uniform": 0.15033569931983948
+    },
+    {
+      "section": "151675",
+      "cell_type": "excitatory_neuron",
+      "lr_top": 0.7161508202552795,
+      "lr_bottom": 0.9118685126304626,
+      "lr_uniform_random": 0.7394167006015777,
+      "lr_density_matched": 0.772110790014267,
+      "lr_library_matched": 0.7269111979007721,
+      "density_top": 0.5225812792778015,
+      "density_matched": 0.5203661322593689,
+      "density_uniform": 0.5019147992134094
+    },
+    {
+      "section": "151676",
+      "cell_type": "oligodendrocyte",
+      "lr_top": 2.7230522632598877,
+      "lr_bottom": 0.40131354331970215,
+      "lr_uniform_random": 0.9107112777233124,
+      "lr_density_matched": 2.6514130640029907,
+      "lr_library_matched": 2.310423183441162,
+      "density_top": 3.0788729190826416,
+      "density_matched": 3.050570487976074,
+      "density_uniform": 1.6933974027633667
+    },
+    {
+      "section": "151676",
+      "cell_type": "astrocyte",
+      "lr_top": 0.5647271871566772,
+      "lr_bottom": 0.5266198515892029,
+      "lr_uniform_random": 0.5139152008295059,
+      "lr_density_matched": 0.4931742948293686,
+      "lr_library_matched": 0.5137532436847687,
+      "density_top": 1.5018233060836792,
+      "density_matched": 1.4965674877166748,
+      "density_uniform": 1.5027540922164917
+    },
+    {
+      "section": "151676",
+      "cell_type": "microglia",
+      "lr_top": 0.04958401620388031,
+      "lr_bottom": 0.0706661269068718,
+      "lr_uniform_random": 0.05291661307215691,
+      "lr_density_matched": 0.052875399217009546,
+      "lr_library_matched": 0.04517876118421554,
+      "density_top": 0.1603211611509323,
+      "density_matched": 0.16105595231056213,
+      "density_uniform": 0.16009753942489624
+    },
+    {
+      "section": "151676",
+      "cell_type": "excitatory_neuron",
+      "lr_top": 0.9720622301101685,
+      "lr_bottom": 0.38833853602409363,
+      "lr_uniform_random": 0.7564703845977783,
+      "lr_density_matched": 0.839451357126236,
+      "lr_library_matched": 0.8458958387374877,
+      "density_top": 0.5837282538414001,
+      "density_matched": 0.5813401937484741,
+      "density_uniform": 0.5141077637672424
+    }
+  ]
+}
